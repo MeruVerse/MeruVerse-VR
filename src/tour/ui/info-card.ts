@@ -5,6 +5,8 @@ import { createPlateSpine } from '../../shared/ui/plate-spine';
 import type { Artist, Artwork } from '../data/types';
 import { type ArtworkView, buildNoteView, resolveArtworkViews } from './artwork-view';
 import { NOTE_LABEL, renderView } from './info-card-render';
+import { createNarrationButton, type NarrationButton } from './narration-button';
+import { createNarrationPlayer } from './narration-player';
 import { nextTabIndex } from './tab-navigation';
 
 const ARTWORK_TITLE = 'Informasi Karya';
@@ -16,6 +18,7 @@ export interface InfoCardOptions {
   readonly parent: HTMLElement;
   readonly artworks: readonly Artwork[];
   readonly artists: readonly Artist[];
+  readonly narratedIds: ReadonlySet<string>;
   onOpenChange?(open: boolean): void;
 }
 
@@ -31,10 +34,15 @@ let cardCount = 0;
 export function createInfoCard(options: InfoCardOptions): InfoCard {
   cardCount += 1;
   const idPrefix = `info-card-${cardCount}`;
+  const narration = createNarrationPlayer();
+  let narrationButton: NarrationButton | null = null;
   const panel = createPanel(options.parent, {
     title: ARTWORK_TITLE,
     variant: 'anchored',
-    ...(options.onOpenChange ? { onOpenChange: options.onOpenChange } : {}),
+    onOpenChange(open) {
+      if (!open) narration.stop();
+      options.onOpenChange?.(open);
+    },
   });
   const spine = createPlateSpine(panel.closeButton, '');
   const tabList = create('div', 'flex flex-col gap-1.5');
@@ -57,8 +65,12 @@ export function createInfoCard(options: InfoCardOptions): InfoCard {
       tab.setAttribute('aria-selected', String(selected));
       tab.tabIndex = selected ? 0 : -1;
     });
-    spine.setLabel(views[index]?.artist ?? NOTE_LABEL);
-    renderView(content, views[index] ?? null);
+    const view = views[index] ?? null;
+    spine.setLabel(view?.artist ?? NOTE_LABEL);
+    narration.stop();
+    narrationButton?.dispose();
+    narrationButton = view?.audioUrl ? createNarrationButton(narration, view.audioUrl) : null;
+    renderView(content, view, narrationButton?.element ?? null);
     content.scrollTop = 0;
     if (focus) tabs[index]?.focus();
     if (tabs.length > 1) content.setAttribute('aria-labelledby', `${idPrefix}-tab-${index}`);
@@ -100,8 +112,12 @@ export function createInfoCard(options: InfoCardOptions): InfoCard {
     event.preventDefault();
     select(next, true);
   };
+  const handleVisibility = () => {
+    if (document.hidden) narration.stop();
+  };
   tabList.addEventListener('click', handleTabClick);
   tabList.addEventListener('keydown', handleTabKeyDown);
+  document.addEventListener('visibilitychange', handleVisibility);
 
   function show(nextViews: ArtworkView[], panelTitle: string, anchor: AnchorProvider): void {
     views = nextViews;
@@ -113,7 +129,12 @@ export function createInfoCard(options: InfoCardOptions): InfoCard {
 
   return {
     open(artworkIds, anchor) {
-      const views = resolveArtworkViews(artworkIds, options.artworks, options.artists);
+      const views = resolveArtworkViews(
+        artworkIds,
+        options.artworks,
+        options.artists,
+        options.narratedIds,
+      );
       show(views, ARTWORK_TITLE, anchor);
     },
     openNote(title, body, anchor) {
@@ -123,6 +144,9 @@ export function createInfoCard(options: InfoCardOptions): InfoCard {
     dispose() {
       tabList.removeEventListener('click', handleTabClick);
       tabList.removeEventListener('keydown', handleTabKeyDown);
+      document.removeEventListener('visibilitychange', handleVisibility);
+      narrationButton?.dispose();
+      narration.dispose();
       panel.dispose();
     },
   };

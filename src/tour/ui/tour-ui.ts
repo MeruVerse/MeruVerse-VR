@@ -16,6 +16,7 @@ export interface TourUiOptions {
   readonly zones: readonly Zone[];
   readonly artworks: readonly Artwork[];
   readonly artists: readonly Artist[];
+  readonly narratedIds: ReadonlySet<string>;
   project(yaw: number, pitch: number): AnchorPoint;
   onEndTour(origin: PortalOrigin): void;
 }
@@ -43,6 +44,7 @@ export function createTourUi(options: TourUiOptions): TourUi {
     parent: root,
     artworks: options.artworks,
     artists: options.artists,
+    narratedIds: options.narratedIds,
   });
   const tip = createHotspotTip({ parent: root, project: options.project });
   const hud = createHud({

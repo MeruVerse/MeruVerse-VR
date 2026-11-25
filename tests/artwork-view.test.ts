@@ -65,6 +65,12 @@ describe('buildArtworkView', () => {
     expect(buildArtworkView(withoutImage, 'S').imageUrl).toBeNull();
   });
 
+  it('narasi hanya untuk karya yang ditandai bernarasi', () => {
+    expect(buildArtworkView(base, 'S').audioUrl).toBeNull();
+    expect(buildArtworkView(base, 'S', false).audioUrl).toBeNull();
+    expect(buildArtworkView(base, 'S', true).audioUrl).toBe('/narasi/x--y.mp3');
+  });
+
   it('deskripsi kosong atau spasi saja menjadi "Informasi segera hadir"', () => {
     expect(buildArtworkView({ ...base, description: '' }, 'S').description).toBe(EMPTY_INFO_TEXT);
     expect(buildArtworkView({ ...base, description: '   ' }, 'S').description).toBe(
@@ -89,6 +95,16 @@ describe('resolveArtworkViews', () => {
 
   it('daftar kosong menghasilkan tampilan kosong', () => {
     expect(resolveArtworkViews([], ARTWORKS, ARTISTS)).toEqual([]);
+  });
+
+  it('narasi hanya menempel pada karya yang ada di daftar bernarasi', () => {
+    const [first, second] = ARTWORKS;
+    if (!first || !second) throw new Error('data karya kosong');
+    const ids = [first.id, second.id];
+    const views = resolveArtworkViews(ids, ARTWORKS, ARTISTS, new Set([second.id]));
+    expect(views.map((view) => view.audioUrl)).toEqual([null, `/narasi/${second.id}.mp3`]);
+    const silent = resolveArtworkViews(ids, ARTWORKS, ARTISTS);
+    expect(silent.map((view) => view.audioUrl)).toEqual([null, null]);
   });
 });
 
@@ -137,6 +153,7 @@ describe('buildNoteView', () => {
       artist: null,
       facts: [],
       imageUrl: null,
+      audioUrl: null,
       description: 'Teks apa adanya.',
     });
   });

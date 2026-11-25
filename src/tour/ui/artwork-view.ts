@@ -5,6 +5,7 @@ export const EMPTY_INFO_TEXT = 'Informasi segera hadir';
 
 const IMAGE_MATCHES: readonly PhotoMatch[] = ['high', 'medium'];
 const MIN_PANELS_LABEL = 1;
+const NARRATION_DIR = '/narasi';
 
 export interface ArtworkFact {
   readonly label: string;
@@ -18,6 +19,7 @@ export interface ArtworkView {
   readonly artist: string | null;
   readonly facts: readonly ArtworkFact[];
   readonly imageUrl: string | null;
+  readonly audioUrl: string | null;
   readonly description: string;
 }
 
@@ -27,7 +29,11 @@ function panelsFact(panels: number | undefined): ArtworkFact[] {
     : [];
 }
 
-export function buildArtworkView(artwork: Artwork, artistName: string | undefined): ArtworkView {
+export function buildArtworkView(
+  artwork: Artwork,
+  artistName: string | undefined,
+  narrated = false,
+): ArtworkView {
   const hasImage = IMAGE_MATCHES.includes(artwork.photoMatch);
   return {
     id: artwork.id,
@@ -41,6 +47,7 @@ export function buildArtworkView(artwork: Artwork, artistName: string | undefine
       ...panelsFact(artwork.panels),
     ],
     imageUrl: hasImage && artwork.image ? withBase(artwork.image) : null,
+    audioUrl: narrated ? withBase(`${NARRATION_DIR}/${artwork.id}.mp3`) : null,
     description: artwork.description.trim() === '' ? EMPTY_INFO_TEXT : artwork.description,
   };
 }
@@ -53,6 +60,7 @@ export function buildNoteView(id: string, title: string, body: string): ArtworkV
     artist: null,
     facts: [],
     imageUrl: null,
+    audioUrl: null,
     description: body.trim() === '' ? EMPTY_INFO_TEXT : body,
   };
 }
@@ -61,11 +69,13 @@ export function resolveArtworkViews(
   artworkIds: readonly string[],
   artworks: readonly Artwork[],
   artists: readonly Artist[],
+  narratedIds: ReadonlySet<string> = new Set(),
 ): ArtworkView[] {
   const artworkById = new Map(artworks.map((artwork) => [artwork.id, artwork]));
   const artistById = new Map(artists.map((artist) => [artist.id, artist.name]));
   return artworkIds.flatMap((id) => {
     const artwork = artworkById.get(id);
-    return artwork ? [buildArtworkView(artwork, artistById.get(artwork.artistId))] : [];
+    if (!artwork) return [];
+    return [buildArtworkView(artwork, artistById.get(artwork.artistId), narratedIds.has(id))];
   });
 }

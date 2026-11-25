@@ -4,6 +4,7 @@ import { type ArtworkView, EMPTY_INFO_TEXT } from './artwork-view';
 export const NOTE_LABEL = 'Informasi';
 
 const WIDE_FACT_LENGTH = 18;
+const TITLE_CLASS = 'text-balance text-[1.625rem] font-bold leading-[1.1] tracking-[-0.025em]';
 
 function renderFacts(view: ArtworkView): HTMLElement {
   const list = create('dl', 'mt-5 grid grid-cols-2 gap-x-4 gap-y-3');
@@ -23,7 +24,11 @@ function renderFacts(view: ArtworkView): HTMLElement {
   return list;
 }
 
-export function renderView(container: HTMLElement, view: ArtworkView | null): void {
+export function renderView(
+  container: HTMLElement,
+  view: ArtworkView | null,
+  titleAction: HTMLElement | null = null,
+): void {
   if (!view) {
     container.replaceChildren(create('p', 'text-base text-paper/80', EMPTY_INFO_TEXT));
     return;
@@ -36,13 +41,15 @@ export function renderView(container: HTMLElement, view: ArtworkView | null): vo
     image.decoding = 'async';
     nodes.push(image);
   }
-  nodes.push(
-    create(
-      'h3',
-      'text-balance text-[1.625rem] font-bold leading-[1.1] tracking-[-0.025em]',
-      view.title,
-    ),
-  );
+  const title = create('h3', TITLE_CLASS, view.title);
+  if (titleAction) {
+    const row = create('div', 'flex items-start justify-between gap-3');
+    title.classList.add('min-w-0', 'flex-1');
+    row.append(title, titleAction);
+    nodes.push(row);
+  } else {
+    nodes.push(title);
+  }
   if (view.facts.length > 0) nodes.push(renderFacts(view));
   nodes.push(
     create(

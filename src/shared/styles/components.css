@@ -50,6 +50,10 @@
   @apply grid size-8 cursor-pointer place-items-center rounded-full border border-jet/50 text-xs font-bold tabular-nums text-jet transition-colors hover:border-jet aria-selected:border-jet aria-selected:bg-jet aria-selected:text-snow;
 }
 
+@utility plate-voice {
+  @apply grid size-9 shrink-0 cursor-pointer place-items-center rounded-full border border-paper/35 text-paper transition-colors hover:border-paper hover:bg-paper/10 focus-visible:bg-paper/10 aria-pressed:border-accent aria-pressed:bg-accent aria-pressed:text-jet;
+}
+
 @utility plate-scroll {
   scrollbar-width: thin;
   scrollbar-color: rgb(246 241 238 / 0.35) transparent;

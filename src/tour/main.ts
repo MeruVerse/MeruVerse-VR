@@ -5,6 +5,7 @@ import { getPanoramaCache } from './aframe/panorama-cache-system';
 import { registerComponents } from './aframe/register-components';
 import { createScreenProjector } from './aframe/screen-projection';
 import { ARTISTS, ARTWORKS } from './data/artworks';
+import { NARRATED_ARTWORK_IDS } from './data/narrations';
 import { SCENES, START_SCENE_ID, ZONES } from './data/scenes';
 import { playFarewell } from './farewell';
 import { hasWebGL, hideLoader, showUnsupported } from './loader';
@@ -50,6 +51,7 @@ async function startTour(): Promise<void> {
     zones: ZONES,
     artworks: ARTWORKS,
     artists: ARTISTS,
+    narratedIds: new Set(NARRATED_ARTWORK_IDS),
     project: createScreenProjector(tourScene.sceneEl),
     onEndTour: (origin) => void playFarewell(origin),
   });
