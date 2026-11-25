@@ -14,6 +14,7 @@
     "build": "vite build",
     "panos": "node scripts/optimize-panos.mjs",
     "karya": "node scripts/build-karya.mjs",
+    "narasi": "node scripts/build-narasi.mjs",
     "preview": "node scripts/optimize-preview.mjs",
     "site-assets": "node scripts/make-site-assets.mjs"
   },
