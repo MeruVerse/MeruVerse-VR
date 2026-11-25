@@ -1,0 +1,21 @@
+@import "@fontsource/instrument-serif/400.css";
+
+a-scene canvas {
+  cursor: grab;
+}
+
+a-scene canvas:active {
+  cursor: grabbing;
+}
+
+a-scene[data-hovering] canvas {
+  cursor: pointer;
+}
+
+a-scene[data-picking] canvas {
+  cursor: crosshair;
+}
+
+a-scene[data-traveling] canvas {
+  pointer-events: none;
+}

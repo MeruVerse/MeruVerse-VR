@@ -1,0 +1,86 @@
+@utility hud-top {
+  @apply pointer-events-none absolute inset-x-0 top-0 flex flex-wrap items-center justify-between gap-x-3 gap-y-2 bg-linear-to-b from-ink/70 to-transparent px-gutter pb-14 pt-gutter lg:flex-nowrap;
+}
+
+@utility hud-brand {
+  @apply pointer-events-none flex items-center gap-3 text-paper drop-shadow-[0_1px_10px_rgb(0_0_0/0.7)] lg:absolute lg:left-1/2 lg:top-gutter lg:h-11 lg:-translate-x-1/2;
+}
+
+@utility hud-button-base {
+  @apply pointer-events-auto inline-flex h-11 cursor-pointer items-center gap-2 rounded-sm px-3.5 text-sm font-semibold shadow-[0_10px_30px_-12px_rgb(0_0_0/0.7)] transition-colors;
+}
+
+@utility hud-button-ghost {
+  @apply bg-ink-2/90 text-paper hover:bg-ink focus-visible:bg-ink aria-expanded:bg-paper aria-expanded:text-ink aria-pressed:bg-paper aria-pressed:text-ink;
+}
+
+@utility hud-button-primary {
+  @apply bg-accent text-jet hover:bg-paper hover:text-ink focus-visible:bg-paper focus-visible:text-ink aria-expanded:bg-paper aria-expanded:text-ink;
+}
+
+@utility hud-hint {
+  @apply pointer-events-none absolute bottom-6 left-1/2 w-max max-w-[calc(100vw-2rem)] -translate-x-1/2 rounded-full bg-ink-2/90 px-5 py-2.5 text-center text-sm font-medium text-paper shadow-[0_10px_30px_-12px_rgb(0_0_0/0.7)];
+}
+
+@utility hud-tip {
+  @apply pointer-events-none fixed left-0 top-0 z-10 flex items-center gap-2 whitespace-nowrap rounded-sm border-l-4 border-accent bg-ink-2/95 py-1.5 pl-2.5 pr-3.5 text-sm font-bold text-paper shadow-[0_10px_30px_-12px_rgb(0_0_0/0.7)];
+}
+
+@utility hud-jump {
+  @apply pointer-events-none absolute bottom-4 left-4 flex flex-wrap gap-px overflow-hidden rounded-sm bg-paper/15 opacity-0 focus-within:pointer-events-auto focus-within:opacity-100;
+}
+
+@utility hud-jump-item {
+  @apply inline-flex cursor-pointer items-center gap-2 bg-ink-2 px-4 py-2.5 text-sm font-semibold text-paper hover:bg-accent hover:text-jet focus-visible:bg-accent focus-visible:text-jet;
+}
+
+@utility panel-plate {
+  @apply relative flex min-h-0 flex-col overflow-hidden bg-ink-2 text-paper shadow-[0_24px_60px_-18px_rgb(0_0_0/0.7)] outline-none;
+}
+
+@utility plate-spine {
+  @apply flex w-11 shrink-0 flex-col items-center gap-3 bg-accent py-2.5 text-jet;
+}
+
+@utility plate-close {
+  @apply grid size-8 shrink-0 cursor-pointer place-items-center rounded-full text-2xl leading-none text-jet transition-colors hover:bg-jet/15 focus-visible:bg-jet/15;
+}
+
+@utility plate-step {
+  @apply grid size-8 cursor-pointer place-items-center rounded-full border border-jet/50 text-xs font-bold tabular-nums text-jet transition-colors hover:border-jet aria-selected:border-jet aria-selected:bg-jet aria-selected:text-snow;
+}
+
+@utility plate-scroll {
+  scrollbar-width: thin;
+  scrollbar-color: rgb(246 241 238 / 0.35) transparent;
+}
+
+@utility route-line {
+  @apply relative;
+
+  &::before {
+    content: "";
+    @apply absolute bottom-[1.625rem] left-[calc(0.875rem-0.5px)] top-[1.625rem] w-px bg-paper/25;
+  }
+}
+
+@utility route-stop {
+  @apply relative flex w-full cursor-pointer items-center justify-between gap-3 py-3 pl-9 pr-1 text-left text-lg font-semibold text-paper/65 transition-colors hover:text-paper data-active:text-paper;
+
+  &::before {
+    content: "";
+    @apply absolute left-2 top-1/2 size-3 -translate-y-1/2 rounded-full border-2 border-paper/50 bg-ink-2 transition-colors;
+  }
+
+  &:hover::before {
+    @apply border-paper;
+  }
+
+  &[data-active]::before {
+    @apply border-accent bg-accent;
+  }
+}
+
+@utility route-badge {
+  @apply shrink-0 bg-accent px-2 py-0.5 text-[0.6875rem] font-bold uppercase tracking-[0.12em] text-jet;
+}

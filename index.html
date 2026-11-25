@@ -1,0 +1,100 @@
+<!doctype html>
+<html lang="id">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="theme-color" content="#ffffff" />
+    <meta
+      name="description"
+      content="Tur virtual 360° Artmeru Gallery, Malang. Jelajahi galeri dan pameran The First Passage lewat layar Anda."
+    />
+    <title>MeruVerse | Tur virtual 360° Artmeru Gallery</title>
+    <meta name="robots" content="index, follow" />
+    <link rel="icon" href="/favicon.svg" type="image/svg+xml" />
+    <link rel="icon" href="/favicon.ico" sizes="32x32" />
+    <link rel="apple-touch-icon" href="/apple-touch-icon.png" />
+    <meta property="og:type" content="website" />
+    <meta property="og:site_name" content="MeruVerse" />
+    <meta property="og:locale" content="id_ID" />
+    <meta property="og:title" content="MeruVerse | Tur virtual 360° Artmeru Gallery" />
+    <meta
+      property="og:description"
+      content="Jelajahi Artmeru Gallery, Malang, dalam panorama 360°. Kunjungi pameran The First Passage lewat layar Anda."
+    />
+    <meta property="og:image:width" content="1200" />
+    <meta property="og:image:height" content="630" />
+    <meta property="og:image:alt" content="Spanduk oranye The First Passage di Artmeru Gallery" />
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta name="twitter:title" content="MeruVerse | Tur virtual 360° Artmeru Gallery" />
+    <meta
+      name="twitter:description"
+      content="Jelajahi Artmeru Gallery, Malang, dalam panorama 360°."
+    />
+    <link rel="stylesheet" href="/src/shared/styles/theme.css" />
+  </head>
+  <body>
+    <main>
+      <section data-hero class="relative isolate h-svh min-h-[34rem] overflow-hidden bg-jet">
+        <div data-hero-stage class="absolute inset-0 overflow-hidden">
+          <div data-hero-slides class="absolute -inset-[6%]">
+            <img
+              data-hero-first
+              src="/preview/preview-4.webp"
+              alt=""
+              width="1280"
+              height="1280"
+              fetchpriority="high"
+              class="absolute inset-0 size-full object-cover object-[50%_42%] contrast-[1.1] saturate-[1.2]"
+            />
+          </div>
+          <div class="hero-knockout">
+            <h1 data-hero-title class="hero-title">MeruVerse</h1>
+          </div>
+        </div>
+        <a
+          data-hero-badge
+          href="#pameran"
+          class="hero-badge absolute left-gutter z-10 text-sm font-medium text-snow underline decoration-flame decoration-2 underline-offset-4"
+        >
+          The First Passage · 24 Oktober – 22 November 2026
+        </a>
+        <div
+          class="absolute inset-x-0 bottom-10 z-10 flex flex-wrap items-end justify-between gap-6 px-gutter"
+        >
+          <p data-hero-tagline class="max-w-[16rem] text-base leading-snug text-snow sm:max-w-sm sm:text-lg">
+            Berjalanlah di dalam Artmeru Gallery dari layar Anda. Seret untuk melihat sekeliling,
+            pilih panah untuk pindah ruang.
+          </p>
+          <a data-portal data-magnetic href="tour.html" class="pill-button">
+            <span>Masuk ke Galeri</span><span class="pill-button__icon" aria-hidden="true">→</span>
+          </a>
+        </div>
+      </section>
+
+      <section data-exhibition id="pameran" class="px-gutter py-section"></section>
+      <section data-preview id="pratinjau" class="bg-fog"></section>
+      <section data-inside id="isi" class="px-gutter py-section"></section>
+
+      <section data-cta class="bg-fog px-gutter py-section">
+        <div class="mx-auto grid max-w-[1200px] items-end gap-16 lg:grid-cols-12">
+          <div class="lg:col-span-7">
+            <h2
+              class="text-balance text-[clamp(3rem,8vw,7.5rem)] font-extrabold leading-[0.9] tracking-[-0.045em]"
+            >
+              Mulai dari pintu depan.
+            </h2>
+            <p data-cta-note class="mt-8 max-w-md text-lg text-charcoal">
+              Tur dimulai di Pintu Masuk, lalu masuk ke galeri lewat Pintu Galeri.
+            </p>
+            <a data-portal data-magnetic href="tour.html" class="pill-button pill-button--dark mt-12">
+              <span>Masuk ke Galeri</span><span class="pill-button__icon" aria-hidden="true">→</span>
+            </a>
+          </div>
+          <div data-visit class="lg:col-span-5"></div>
+        </div>
+      </section>
+    </main>
+    <footer data-footer class="px-gutter py-10 text-sm text-ash"></footer>
+    <script type="module" src="/src/landing/main.ts"></script>
+  </body>
+</html>

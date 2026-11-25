@@ -1,0 +1,41 @@
+<!doctype html>
+<html lang="id">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="theme-color" content="#1d1714" />
+    <title>Tur 360° | MeruVerse</title>
+    <meta
+      name="description"
+      content="Tur virtual 360° Artmeru Gallery, Malang. Seret untuk melihat sekeliling dan pilih panah untuk pindah ruang."
+    />
+    <link rel="icon" href="/favicon.svg" type="image/svg+xml" />
+    <link rel="icon" href="/favicon.ico" sizes="32x32" />
+    <link rel="apple-touch-icon" href="/apple-touch-icon.png" />
+    <meta property="og:type" content="website" />
+    <meta property="og:site_name" content="MeruVerse" />
+    <meta property="og:locale" content="id_ID" />
+    <meta property="og:title" content="Tur 360° | MeruVerse" />
+    <meta
+      property="og:description"
+      content="Berjalan dari ruang ke ruang di Artmeru Gallery, Malang, dalam panorama 360°."
+    />
+    <meta property="og:image:width" content="1200" />
+    <meta property="og:image:height" content="630" />
+    <meta property="og:image:alt" content="Spanduk oranye The First Passage di Artmeru Gallery" />
+    <meta name="twitter:card" content="summary_large_image" />
+    <link rel="stylesheet" href="/src/shared/styles/theme.css" />
+  </head>
+  <body>
+    <main data-tour-root>
+      <div
+        data-tour-loading
+        class="fixed inset-0 z-30 flex flex-col items-center justify-center gap-3 bg-ink px-gutter text-center text-paper"
+      >
+        <p class="text-2xl font-bold tracking-[-0.02em]">Memuat tur 360°</p>
+        <p class="text-paper/70">Panorama pertama sedang disiapkan.</p>
+      </div>
+    </main>
+    <script type="module" src="/src/tour/main.ts"></script>
+  </body>
+</html>

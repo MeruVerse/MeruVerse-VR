@@ -1,0 +1,15 @@
+export type {
+  BufferGeometry,
+  Camera,
+  CanvasTexture,
+  Group,
+  Material,
+  Mesh,
+  MeshBasicMaterial,
+  Object3D,
+  PerspectiveCamera,
+  Quaternion,
+  Texture,
+  Vector3,
+  WebGLRenderer,
+} from 'three';

@@ -1,0 +1,8 @@
+node_modules/
+dist/
+assets-src/
+coverage/
+*.log
+.env
+.env.*
+.DS_Store

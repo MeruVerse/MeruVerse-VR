@@ -1,0 +1,38 @@
+@import "tailwindcss" source(none);
+@import "@fontsource-variable/geist";
+@import "./base.css";
+@import "./components.css";
+
+@source "../../../index.html";
+@source "../../../tour.html";
+@source "../../";
+
+@theme static {
+  --color-ink: #1d1714;
+  --color-ink-2: #2a211d;
+  --color-paper: #f6f1ee;
+  --color-accent: #e5483a;
+  --color-info: #2f6fbf;
+  --color-snow: #ffffff;
+  --color-jet: #0a0a0a;
+  --color-charcoal: #2a2a2a;
+  --color-ash: #767676;
+  --color-haze: #d9d9d9;
+  --color-fog: #ededed;
+  --color-flame: #ee3e12;
+  --color-flame-press: #d2340d;
+
+  --font-display: "Instrument Serif", ui-serif, Georgia, serif;
+  --font-sans: "Geist Variable", ui-sans-serif, system-ui, sans-serif;
+
+  --ease-out: cubic-bezier(0.16, 1, 0.3, 1);
+
+  --text-display: clamp(4rem, 14vw, 15rem);
+  --text-title: clamp(2.5rem, 7vw, 7rem);
+  --text-lead: clamp(1.125rem, 1.6vw, 1.5rem);
+
+  --spacing-gutter: clamp(1rem, 4vw, 4rem);
+  --spacing-section: clamp(6rem, 14vw, 14rem);
+
+  --radius-card: 1.25rem;
+}

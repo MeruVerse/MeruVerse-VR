@@ -1,0 +1,316 @@
+{
+  "meta": {
+    "status": "draft",
+    "notes": [
+      "route adalah urutan panorama untuk indeks, bukan rute jalan tanpa cabang. Navigasi mengikuti links; A-Merch dicapai melalui Pintu Galeri dan Patung Gerak melalui Lantai Atas.",
+      "yaw/pitch hotspot belum ada; diisi dengan hotspot picker.",
+      "Terdapat 13 panorama. Ruang Pamer 2 memiliki panorama sendiri; panorama Ruang Pamer 2 lama sekarang bernama Ruang Pamer 3 sisi 1 dan 2."
+    ]
+  },
+  "zones": [
+    {
+      "id": "pintu-masuk",
+      "label": "Pintu Masuk",
+      "entry": "pintu-masuk"
+    },
+    {
+      "id": "pintu-galeri",
+      "label": "Pintu Galeri",
+      "entry": "pintu-galeri"
+    },
+    {
+      "id": "a-merch",
+      "label": "A-Merch",
+      "entry": "a-merch"
+    },
+    {
+      "id": "ruang-pamer-1",
+      "label": "Ruang Pamer 1",
+      "entry": "ruang-pamer-1-part-1"
+    },
+    {
+      "id": "ruang-pamer-2",
+      "label": "Ruang Pamer 2",
+      "entry": "ruang-pamer-2"
+    },
+    {
+      "id": "ruang-pamer-3",
+      "label": "Ruang Pamer 3",
+      "entry": "ruang-pamer-3-part-1"
+    },
+    {
+      "id": "lorong-karya",
+      "label": "Lorong Karya",
+      "entry": "lantai-atas"
+    },
+    {
+      "id": "ruang-pamer-4",
+      "label": "Ruang Pamer 4",
+      "entry": "patung-gerak"
+    },
+    {
+      "id": "ruang-karya-figur",
+      "label": "Ruang Karya Figur",
+      "entry": "ruang-pamer-lantai-atas"
+    },
+    {
+      "id": "ruang-komunal",
+      "label": "Ruang Komunal",
+      "entry": "ruang-komunal"
+    }
+  ],
+  "scenes": [
+    {
+      "id": "pintu-masuk",
+      "title": "Pintu Masuk",
+      "zone": "pintu-masuk",
+      "panorama": {
+        "full": "/panos/pintu-masuk.webp",
+        "preview": "/panos/pintu-masuk-lq.webp"
+      },
+      "source": "pintu-masuk.JPG",
+      "initialYaw": 0,
+      "sceneNote": "Trotoar depan galeri; pintu merah bertuliskan INSTAMERU dan tangga ke dalam."
+    },
+    {
+      "id": "pintu-galeri",
+      "title": "Pintu Galeri",
+      "zone": "pintu-galeri",
+      "panorama": {
+        "full": "/panos/pintu-galeri.webp",
+        "preview": "/panos/pintu-galeri-lq.webp"
+      },
+      "source": "pintu-galeri.JPG",
+      "initialYaw": 0,
+      "sceneNote": "Lantai bawah, ubin kuning; pintu bata merah, teks kuratorial di dinding, sudut merchandise."
+    },
+    {
+      "id": "a-merch",
+      "title": "A-Merch",
+      "zone": "a-merch",
+      "panorama": {
+        "full": "/panos/a-merch.webp",
+        "preview": "/panos/a-merch-lq.webp"
+      },
+      "source": "a-merch.JPG",
+      "initialYaw": 0,
+      "sceneNote": "Toko merchandise: rak pakaian, tote bag, spanduk oranye bermotif."
+    },
+    {
+      "id": "ruang-pamer-1-part-1",
+      "title": "Ruang Pamer 1 (sisi 1)",
+      "zone": "ruang-pamer-1",
+      "panorama": {
+        "full": "/panos/ruang-pamer-1-part-1.webp",
+        "preview": "/panos/ruang-pamer-1-part-1-lq.webp"
+      },
+      "source": "ruang-pamer-1-part-1.JPG",
+      "initialYaw": 0,
+      "sceneNote": "Dinding putih dengan lukisan hitam-putih dan figur; pintu lengkung oranye menuju A-Merch."
+    },
+    {
+      "id": "ruang-pamer-1-part-2",
+      "title": "Ruang Pamer 1 (sisi 2)",
+      "zone": "ruang-pamer-1",
+      "panorama": {
+        "full": "/panos/ruang-pamer-1-part-2.webp",
+        "preview": "/panos/ruang-pamer-1-part-2-lq.webp"
+      },
+      "source": "ruang-pamer-1-part-2.JPG",
+      "initialYaw": 0,
+      "sceneNote": "Lukisan interior berwarna di tengah; pintu ke ruang berikutnya di kiri dan kanan."
+    },
+    {
+      "id": "ruang-pamer-2",
+      "title": "Ruang Pamer 2",
+      "zone": "ruang-pamer-2",
+      "panorama": {
+        "full": "/panos/ruang-pamer-2.webp",
+        "preview": "/panos/ruang-pamer-2-lq.webp"
+      },
+      "source": "ruang-pamer-2.JPG",
+      "initialYaw": 0,
+      "sceneNote": "Ruang putih berlantai ubin kuning dengan lukisan hitam bermotif merah di kiri dan kanan, patung kayu di atas podium putih, dan pintu menuju ruang berlukisan teal di depan."
+    },
+    {
+      "id": "ruang-pamer-3-part-1",
+      "title": "Ruang Pamer 3 (sisi 1)",
+      "zone": "ruang-pamer-3",
+      "panorama": {
+        "full": "/panos/ruang-pamer-3-part-1.webp",
+        "preview": "/panos/ruang-pamer-3-part-1-lq.webp"
+      },
+      "source": "ruang-pamer-3-part-1.JPG",
+      "initialYaw": 0,
+      "sceneNote": "Lukisan teal selebar dinding, lantai ubin kuning dengan strip merah marun, tangga merah di kanan."
+    },
+    {
+      "id": "ruang-pamer-3-part-2",
+      "title": "Ruang Pamer 3 (sisi 2)",
+      "zone": "ruang-pamer-3",
+      "panorama": {
+        "full": "/panos/ruang-pamer-3-part-2.webp",
+        "preview": "/panos/ruang-pamer-3-part-2-lq.webp"
+      },
+      "source": "ruang-pamer-3-part-2.JPG",
+      "initialYaw": 0,
+      "sceneNote": "Tangga merah di kiri, karya potongan emas di atas empat bingkai di kanan."
+    },
+    {
+      "id": "lantai-atas",
+      "title": "Lantai Atas",
+      "zone": "lorong-karya",
+      "panorama": {
+        "full": "/panos/lantai-atas.webp",
+        "preview": "/panos/lantai-atas-lq.webp"
+      },
+      "source": "lantai-atas.JPG",
+      "initialYaw": 0,
+      "sceneNote": "Pendaratan tangga dengan pagar merah, pintu bertirai merah, deretan bingkai di dinding kanan."
+    },
+    {
+      "id": "lorong",
+      "title": "Lorong Karya",
+      "zone": "lorong-karya",
+      "panorama": {
+        "full": "/panos/lorong.webp",
+        "preview": "/panos/lorong-lq.webp"
+      },
+      "source": "lorong.JPG",
+      "initialYaw": 0,
+      "sceneNote": "Lorong berubin putih dengan deretan bingkai di dinding kiri; ruang pamer di ujung."
+    },
+    {
+      "id": "patung-gerak",
+      "title": "Patung Gerak",
+      "zone": "ruang-pamer-4",
+      "panorama": {
+        "full": "/panos/patung-gerak.webp",
+        "preview": "/panos/patung-gerak-lq.webp"
+      },
+      "source": "patung-gerak.JPG",
+      "initialYaw": 0,
+      "sceneNote": "Kamar mandi bergambar arang di dinding, bak mandi berisi figur berselimut, tirai merah di dua sisi, cahaya kemerahan."
+    },
+    {
+      "id": "ruang-pamer-lantai-atas",
+      "title": "Ruang Pamer Lantai Atas",
+      "zone": "ruang-karya-figur",
+      "panorama": {
+        "full": "/panos/ruang-pamer-lantai-atas.webp",
+        "preview": "/panos/ruang-pamer-lantai-atas-lq.webp"
+      },
+      "source": "ruang-pamer-lantai-atas.JPG",
+      "initialYaw": 0,
+      "sceneNote": "Ruang putih dengan karya potongan figur di tepi, bingkai bermotif daun di dinding kanan."
+    },
+    {
+      "id": "ruang-komunal",
+      "title": "Ruang Komunal",
+      "zone": "ruang-komunal",
+      "panorama": {
+        "full": "/panos/ruang-komunal.webp",
+        "preview": "/panos/ruang-komunal-lq.webp"
+      },
+      "source": "ruang-komunal.JPG",
+      "initialYaw": 0,
+      "sceneNote": "Meja panjang kayu dengan kursi oranye, pintu merah, tali jemuran karya kecil."
+    }
+  ],
+  "route": [
+    "pintu-masuk",
+    "pintu-galeri",
+    "a-merch",
+    "ruang-pamer-1-part-1",
+    "ruang-pamer-1-part-2",
+    "ruang-pamer-2",
+    "ruang-pamer-3-part-1",
+    "ruang-pamer-3-part-2",
+    "lantai-atas",
+    "lorong",
+    "patung-gerak",
+    "ruang-pamer-lantai-atas",
+    "ruang-komunal"
+  ],
+  "links": [
+    {
+      "from": "pintu-masuk",
+      "to": "pintu-galeri",
+      "bidirectional": true,
+      "confidence": "hypothesis"
+    },
+    {
+      "from": "pintu-galeri",
+      "to": "a-merch",
+      "bidirectional": true,
+      "confidence": "hypothesis"
+    },
+    {
+      "from": "ruang-pamer-1-part-1",
+      "to": "ruang-pamer-1-part-2",
+      "bidirectional": true,
+      "confidence": "hypothesis"
+    },
+    {
+      "from": "ruang-pamer-1-part-2",
+      "to": "ruang-pamer-2",
+      "bidirectional": true,
+      "confidence": "confirmed",
+      "basis": "Panorama Ruang Pamer 2 menampilkan lukisan interior Ruang Pamer 1 melalui pintu belakang; panorama Ruang Pamer 1 sisi 2 menampilkan karya hitam-merah Ruang Pamer 2 melalui pintu yang sama."
+    },
+    {
+      "from": "ruang-pamer-2",
+      "to": "ruang-pamer-3-part-1",
+      "bidirectional": true,
+      "confidence": "confirmed",
+      "basis": "Pintu depan Ruang Pamer 2 memperlihatkan karya teal dan rangkaian figur Ruang Pamer 3; pintu balik Ruang Pamer 3 menuju ruang dengan karya hitam-merah."
+    },
+    {
+      "from": "ruang-pamer-3-part-1",
+      "to": "ruang-pamer-3-part-2",
+      "bidirectional": true,
+      "confidence": "hypothesis"
+    },
+    {
+      "from": "ruang-pamer-3-part-2",
+      "to": "lantai-atas",
+      "bidirectional": true,
+      "confidence": "hypothesis"
+    },
+    {
+      "from": "lantai-atas",
+      "to": "lorong",
+      "bidirectional": true,
+      "confidence": "hypothesis"
+    },
+    {
+      "from": "lantai-atas",
+      "to": "patung-gerak",
+      "bidirectional": true,
+      "confidence": "confirmed",
+      "basis": "Dikonfirmasi pemilik proyek: tirai di lantai atas membuka ruang Patung Gerak; jalur lorong terpisah."
+    },
+    {
+      "from": "lorong",
+      "to": "ruang-pamer-lantai-atas",
+      "bidirectional": true,
+      "confidence": "confirmed",
+      "basis": "Dikonfirmasi pemilik proyek: area karya di lantai atas dicapai melalui lorong, bukan melalui Patung Gerak."
+    },
+    {
+      "from": "lorong",
+      "to": "ruang-komunal",
+      "bidirectional": true,
+      "confidence": "confirmed",
+      "basis": "Dikonfirmasi pemilik proyek: lorong menghubungkan area karya dengan Ruang Komunal."
+    },
+    {
+      "from": "pintu-galeri",
+      "to": "ruang-pamer-1-part-1",
+      "bidirectional": true,
+      "confidence": "confirmed",
+      "basis": "Dikonfirmasi pemilik proyek: tirai oranye di pintu-galeri menuju ruang pamer 1 (sisi 1). Keluar dari ruang pamer 1 kembali melalui Pintu Galeri; akses A-Merch dipilih dari Pintu Galeri."
+    }
+  ],
+  "candidateLinks": []
+}

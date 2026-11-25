@@ -1,0 +1,1034 @@
+{
+  "meta": {
+    "source": "foto label dan karya pada info-karya.zip",
+    "language": "id",
+    "notes": [
+      "Teks deskripsi disalin dari label fisik apa adanya; ejaan tidak dikoreksi.",
+      "photoMatch menunjukkan keyakinan kecocokan foto karya dengan judul: high, medium, low, none.",
+      "price berupa teks asli label dan ditampilkan di tur apa adanya (termasuk \"/each\"). Karya tanpa price tidak menampilkan harga."
+    ]
+  },
+  "artists": [
+    {
+      "id": "bagus-priyo",
+      "name": "Bagus Priyo",
+      "roomHint": {
+        "scenes": "belum dipastikan",
+        "confidence": "low",
+        "basis": "Tidak teridentifikasi jelas di 12 panorama."
+      },
+      "artworkIds": [
+        "bagus-priyo--kecebur-kali",
+        "bagus-priyo--preman-pasar",
+        "bagus-priyo--ayam-tarung"
+      ]
+    },
+    {
+      "id": "thariq-ramadhan",
+      "name": "Thariq Ramadhan",
+      "roomHint": {
+        "scenes": "ruang-pamer-3-part-1",
+        "confidence": "medium",
+        "basis": "Lukisan perempuan berkebaya dengan panel kecil di dinding kiri panorama."
+      },
+      "artworkIds": [
+        "thariq-ramadhan--mekar-serumah",
+        "thariq-ramadhan--safari",
+        "thariq-ramadhan--monument-of-fragility"
+      ]
+    },
+    {
+      "id": "hendung-tunggal-jati",
+      "name": "Hendung Tunggal Jati",
+      "roomHint": {
+        "scenes": "ruang-pamer-1-part-1",
+        "confidence": "medium",
+        "basis": "Lukisan hitam bersiluet dan kanvas bakar bertuliskan HOMI NI LUPUS terlihat di dinding."
+      },
+      "artworkIds": [
+        "hendung-tunggal-jati--shadow",
+        "hendung-tunggal-jati--ritual-leluhur",
+        "hendung-tunggal-jati--keheningan",
+        "hendung-tunggal-jati--long-live-show",
+        "hendung-tunggal-jati--homo-homini-lupus",
+        "hendung-tunggal-jati--koar-koar"
+      ]
+    },
+    {
+      "id": "kharisma-adi",
+      "name": "Kharisma Adi",
+      "roomHint": {
+        "scenes": "ruang-pamer-3-part-2",
+        "confidence": "high",
+        "basis": "Dua karya emas-potongan di atas empat bingkai, dinding kanan panorama."
+      },
+      "artworkIds": [
+        "kharisma-adi--parimarma",
+        "kharisma-adi--tanpa-palupi",
+        "kharisma-adi--fragment-energy"
+      ]
+    },
+    {
+      "id": "osyadha-ramadhana",
+      "name": "Osyadha Ramadhana",
+      "roomHint": {
+        "scenes": "ruang-pamer-lantai-atas",
+        "confidence": "medium",
+        "basis": "Tiga bingkai kecil berwarna di dinding kiri-tengah panorama."
+      },
+      "artworkIds": [
+        "osyadha-ramadhana--selepas-7-lantas-berlipat-ganda"
+      ]
+    },
+    {
+      "id": "bagas-rachelma",
+      "name": "Bagas Rachelma",
+      "roomHint": {
+        "scenes": "ruang-pamer-3-part-1 atau ruang-pamer-3-part-2",
+        "confidence": "low",
+        "basis": "Lukisan hutan ungu dan tanaman gurun oranye; belum dipastikan."
+      },
+      "artworkIds": [
+        "bagas-rachelma--katharsis",
+        "bagas-rachelma--semaian",
+        "bagas-rachelma--penyesuaian"
+      ]
+    },
+    {
+      "id": "dimas-prayogo",
+      "name": "Dimas Prayogo",
+      "roomHint": {
+        "scenes": "belum dipastikan",
+        "confidence": "low",
+        "basis": "Gaya pita FRAGILE merah ada di foto, tetapi tidak jelas di panorama."
+      },
+      "artworkIds": [
+        "dimas-prayogo--entangled",
+        "dimas-prayogo--west-wind",
+        "dimas-prayogo--merajut-asa",
+        "dimas-prayogo--cooporate",
+        "dimas-prayogo--persuasion"
+      ]
+    },
+    {
+      "id": "rodlyta-ittabi-ulya",
+      "name": "Rodlyta Ittabi' Ulya",
+      "roomHint": {
+        "scenes": "lantai-atas, lorong, ruang-komunal",
+        "confidence": "high",
+        "basis": "Deretan bingkai kecil sepanjang dinding putih; terlihat di tiga panorama."
+      },
+      "artworkIds": [
+        "rodlyta-ittabi-ulya--a-fragment-of-landscape"
+      ]
+    },
+    {
+      "id": "anggun-setiawan-nadia-vina-maharani",
+      "name": "Anggun Setiawan & Nadia Vina Maharani",
+      "roomHint": {
+        "scenes": "patung-gerak",
+        "confidence": "high",
+        "basis": "Bak mandi dengan figur berselimut; sketsa di label sama dengan isi panorama."
+      },
+      "artworkIds": [
+        "anggun-setiawan-nadia-vina-maharani--komponen-no-1-bayang-bayang-dari-instalasi-bayan"
+      ]
+    },
+    {
+      "id": "andreas-wijaya",
+      "name": "Andreas Wijaya",
+      "roomHint": {
+        "scenes": "belum dipastikan",
+        "confidence": "low",
+        "basis": "Tidak teridentifikasi jelas di 12 panorama."
+      },
+      "artworkIds": [
+        "andreas-wijaya--drowning-the-death-of-ophelia-2023-ce-in-the-ant"
+      ]
+    },
+    {
+      "id": "sihabudin",
+      "name": "Sihabudin",
+      "roomHint": {
+        "scenes": "belum dipastikan",
+        "confidence": "low",
+        "basis": "Tidak teridentifikasi jelas di 12 panorama."
+      },
+      "artworkIds": [
+        "sihabudin--parade-laut",
+        "sihabudin--impen"
+      ]
+    },
+    {
+      "id": "mujib-darjo",
+      "name": "Mujib Darjo",
+      "roomHint": {
+        "scenes": "ruang-pamer-1-part-2",
+        "confidence": "medium",
+        "basis": "Lukisan interior (ruang tamu kuning, sofa oranye, kamar gelap) terlihat di tengah panorama."
+      },
+      "artworkIds": [
+        "mujib-darjo--jam-7-30",
+        "mujib-darjo--cermin-besar",
+        "mujib-darjo--tidak-seperti-di-rumah",
+        "mujib-darjo--mencuci-baju-di-hari-lebaran-kedua",
+        "mujib-darjo--jeda",
+        "mujib-darjo--luka",
+        "mujib-darjo--aku-melihatmu-di-pagi-buta",
+        "mujib-darjo--peraduan-bertahta-gunung"
+      ]
+    },
+    {
+      "id": "victor-syahrul-akbar",
+      "name": "Victor Syahrul Akbar",
+      "roomHint": {
+        "scenes": "ruang-pamer-lantai-atas",
+        "confidence": "medium",
+        "basis": "Lima bingkai kayu bermotif daun di dinding kanan panorama."
+      },
+      "artworkIds": [
+        "victor-syahrul-akbar--reflection-around-us-1-2-3-4-5"
+      ]
+    },
+    {
+      "id": "friski-jayantoro",
+      "name": "Friski Jayantoro",
+      "roomHint": {
+        "scenes": "ruang-pamer-3-part-1 dan ruang-pamer-3-part-2",
+        "confidence": "high",
+        "basis": "Lukisan teal selebar dinding (130x300 cm) terlihat di kedua panorama; The Morning After (hijau-kuning) kemungkinan di ruang yang sama."
+      },
+      "artworkIds": [
+        "friski-jayantoro--hiduplah-dimasamu-2",
+        "friski-jayantoro--the-morning-after"
+      ]
+    },
+    {
+      "id": "marselina-adeline",
+      "name": "Marselina Adeline",
+      "roomHint": {
+        "scenes": "belum dipastikan",
+        "confidence": "low",
+        "basis": "Tidak teridentifikasi jelas di 12 panorama."
+      },
+      "artworkIds": [
+        "marselina-adeline--batasanku-atau-batasanmu",
+        "marselina-adeline--diktean-masa-depanku"
+      ]
+    },
+    {
+      "id": "tezar-ari-sandy",
+      "name": "Tezar Ari Sandy",
+      "roomHint": {
+        "scenes": "belum dipastikan",
+        "confidence": "low",
+        "basis": "Tidak teridentifikasi jelas di 12 panorama."
+      },
+      "artworkIds": [
+        "tezar-ari-sandy--evening-prayer-1",
+        "tezar-ari-sandy--evening-prayer-2"
+      ]
+    },
+    {
+      "id": "rizky-alison",
+      "name": "Rizky Alison",
+      "roomHint": {
+        "scenes": "ruang-pamer-lantai-atas",
+        "confidence": "high",
+        "basis": "Dua karya potongan figur terlihat di tepi kiri dan kanan panorama."
+      },
+      "artworkIds": [
+        "rizky-alison--climax",
+        "rizky-alison--the-promise"
+      ]
+    },
+    {
+      "id": "gatot-kumaidi",
+      "name": "Gatot Kumaidi",
+      "roomHint": {
+        "scenes": "ruang-pamer-2, ruang-pamer-3-part-1",
+        "confidence": "high",
+        "basis": "Dikonfirmasi pemilik proyek: Kait dan Relax di Ruang Pamer 2; Menetes dan Kawan Bergelut di Ruang Pamer 3."
+      },
+      "artworkIds": [
+        "gatot-kumaidi--kait",
+        "gatot-kumaidi--relax",
+        "gatot-kumaidi--menetes",
+        "gatot-kumaidi--kawan-bergelut"
+      ]
+    }
+  ],
+  "artworks": [
+    {
+      "title": "Kecebur Kali",
+      "size": "30 cm x 40 cm",
+      "medium": "Acrylic on Canvas",
+      "year": 2026,
+      "price": "Rp 2.500.000",
+      "description": "Cerita tentang seorang bapak bapak di daerah wage sidoarjo, yang pada saat itu sedang menyelamatkan seorang anak yang tercebur sungai karena terbawa arus banjir, pada waktu itu si bapak bapak tersebut langsung lompat tanpa pikir panjang menyelamatkan si anak yang tercebur, ternyata si bapak pun ikut hanyut di dalam arus sungai tersebut.",
+      "labelPhoto": "0eefb570-7417-4282-b110-30f7acee78bf.jpg",
+      "photos": [],
+      "id": "bagus-priyo--kecebur-kali",
+      "artistId": "bagus-priyo",
+      "photoMatch": "none"
+    },
+    {
+      "title": "Preman Pasar",
+      "size": "30 cm x 30 cm",
+      "medium": "Acrylic on Canvas",
+      "year": 2026,
+      "price": "Rp 2.500.000",
+      "description": "Bercerita tentang seorang Preman pasar yang berantem dengan penjaga parkir di pasar tebet jakarta, waktu itu kejadiannya si preman yang memakai helm membuat onar dengan memalak beberapa pengunjung pasar. Kejadian tersebut otomatis membuat warga di daerah tersebut tidak terima karena daerah nya dibuat rusuh, munculah seorang tukang parkir asli tebet mengajak berantem si preman, dan akhirnya menjadi tontonan para warga dan pengunjung pasar.",
+      "labelPhoto": "0eefb570-7417-4282-b110-30f7acee78bf.jpg",
+      "photos": [
+        "5dd45c0e-d0fb-45bc-ae37-e7fadae02ea1.jpg"
+      ],
+      "id": "bagus-priyo--preman-pasar",
+      "artistId": "bagus-priyo",
+      "photoMatch": "low"
+    },
+    {
+      "title": "Ayam Tarung",
+      "size": "20 cm x 20 cm",
+      "medium": "Cyanotype on Canvas",
+      "year": 2026,
+      "price": "Rp 3.500.000",
+      "description": "Cerita tentang cak ji, pemilik warkop di daerah pepelegi sidoarjo, 18 tahun silam merupakan tempat nyangkruk saya bersama warga-warga. Semenjak istrinya meninggal dan kemudian warungnya bermasalah dengan pemilik lahan, akhirnya warungnya tutup. Cak ji sekarang setiap hari cuman main ayam tarung, alias chicken fighter lokal.",
+      "labelPhoto": "d63f7556-102c-49ff-bf29-243ef07e4a76.jpg",
+      "photos": [
+        "366ac382-d62f-48f1-b33c-ee4e1e40bca7.jpg"
+      ],
+      "id": "bagus-priyo--ayam-tarung",
+      "artistId": "bagus-priyo",
+      "photoMatch": "high"
+    },
+    {
+      "title": "Mekar Serumah",
+      "size": "20 cm x 40 cm",
+      "medium": "Acrylic on Canvas",
+      "year": 2026,
+      "price": "Rp 1.700.000",
+      "description": "Menggambarkan kenyamanan yang tercipta dari keselarasan Rumah dan penghuninya. Rumah menjadi sarana untuk menata aspek penting seperti, aspek sosial, spiritual. Apa yang melekat di dalamnya memiliki kausalitas tersendiri untuk menciptakan energi positif.",
+      "labelPhoto": "135baad2-5ca4-41f1-b2a2-3cdbe070dcfc.jpg",
+      "photos": [
+        "1f1ffd6a-8b4f-4b72-ad4e-6be6eaabe0da.jpg"
+      ],
+      "id": "thariq-ramadhan--mekar-serumah",
+      "artistId": "thariq-ramadhan",
+      "photoMatch": "high"
+    },
+    {
+      "title": "Safari",
+      "size": "30 cm x 30 cm",
+      "medium": "Acrylic on Canvas",
+      "year": 2026,
+      "price": "Rp 1.500.000/each",
+      "description": "karya ini digambarkan bentuk panel dengan simbol perjalanan spiritual, dan pengetahuan. Hal tersebut memiliki peran yang sangat penting dalam membentuk pemahaman diri dan dunia di sekitar kita. Kesempurnaan merupakan hasil dari usaha yang terus menerus untuk tumbuh, belajar, dan menerima segala hal yang datang. Kunci utama dalam proses ini adalah keterbukaan hati dan pikiran, serta kesiapan untuk menerima kekurangan diri sendiri.",
+      "labelPhoto": "a3b4e729-a481-4e4b-ba2e-147341fdd38f.jpg",
+      "photos": [
+        "326888dd-3b66-4794-9ee8-020a6fb36297.jpg"
+      ],
+      "panels": 3,
+      "id": "thariq-ramadhan--safari",
+      "artistId": "thariq-ramadhan",
+      "photoMatch": "high"
+    },
+    {
+      "title": "Monument of Fragility",
+      "size": "77 cm x 100 cm",
+      "medium": "Acrylic on Canvas",
+      "year": 2026,
+      "price": "Rp 8.000.000",
+      "description": "Karya ini berangkat dari kesadaran bahwa dibalik keindahan selalu ada kerapuhan, semegah apapun dirinya, akan selalu menyimpan ruang rapuh di dalam jiwanya. Kerapuhan tersebut bukanlah sesuatu yang harus disangkal, melainkan bagian yang melekat pada jiwa yang mampu berpikir dan menciptakan makna. Semua yang bernilai akan memiliki daya untuk menyentuh hingga mengguncang batin seseorang.",
+      "labelPhoto": "a3b4e729-a481-4e4b-ba2e-147341fdd38f.jpg",
+      "photos": [
+        "326888dd-3b66-4794-9ee8-020a6fb36297.jpg"
+      ],
+      "id": "thariq-ramadhan--monument-of-fragility",
+      "artistId": "thariq-ramadhan",
+      "photoMatch": "high"
+    },
+    {
+      "title": "Shadow",
+      "size": "70 cm x 90 cm",
+      "medium": "Mix Media on Canvas",
+      "year": 2026,
+      "price": "Rp 9.000.000",
+      "description": "Suatu penggambaran refleksi diri yang kadang masih belum utuh dipahami/dikenali siapa diri kita ini.",
+      "labelPhoto": "213573e8-3a85-4f5f-a6db-16569f6756e5.jpg",
+      "photos": [
+        "1a278599-187f-4f9a-8607-2c5da79b087a.jpg"
+      ],
+      "id": "hendung-tunggal-jati--shadow",
+      "artistId": "hendung-tunggal-jati",
+      "photoMatch": "medium"
+    },
+    {
+      "title": "Ritual Leluhur",
+      "size": "75 cm x 90 cm",
+      "medium": "Acrylic on Canvas",
+      "year": 2026,
+      "price": "Rp 10.000.000",
+      "description": "Suatu simbol penghormatan pada leluhur/pendahulu di budaya kita yang sampai hari ini masih dilestarikan, terutama di daerah pelosok seluruh Nusantara.",
+      "labelPhoto": "6a590e90-954b-43fd-bc71-ad575e1240ed.jpg",
+      "photos": [
+        "hendung-tunggal-jati--ritual-leluhur.jpg",
+        "7632386a-548b-42c1-9346-38d9e6684e22.jpg"
+      ],
+      "id": "hendung-tunggal-jati--ritual-leluhur",
+      "artistId": "hendung-tunggal-jati",
+      "photoMatch": "high"
+    },
+    {
+      "title": "Keheningan",
+      "size": "50 cm x 70 cm",
+      "medium": "Mix Media on Canvas",
+      "year": 2026,
+      "price": "Rp 5.000.000",
+      "description": "Kadang kita perlu menaruh/melepas segala atribut dan kepentingan dengan segala kesibukan dunia ini untuk merasakan apa adanya yang ada didalam diri kita.",
+      "labelPhoto": "6a590e90-954b-43fd-bc71-ad575e1240ed.jpg",
+      "photos": [
+        "hendung-tunggal-jati--keheningan.jpg",
+        "7632386a-548b-42c1-9346-38d9e6684e22.jpg"
+      ],
+      "id": "hendung-tunggal-jati--keheningan",
+      "artistId": "hendung-tunggal-jati",
+      "photoMatch": "high"
+    },
+    {
+      "title": "Long Live Show",
+      "size": "90 cm x 90 cm",
+      "medium": "Mix Media on Canvas",
+      "year": 2026,
+      "price": "Rp 11.000.000",
+      "description": "Dalam sejarah kehidupan manusia selalu dibersamai dengan pertunjukan yang tak akan pernah habis skenario dan lakonnya; ada bentuk tragedi, komedi, romantis, dan lainnya.",
+      "labelPhoto": "cad4fb2a-0a1a-4c63-bfd2-c4d717207521.jpg",
+      "photos": [
+        "1f0df81f-4149-40af-b1da-3fee1c095f98.jpg"
+      ],
+      "id": "hendung-tunggal-jati--long-live-show",
+      "artistId": "hendung-tunggal-jati",
+      "photoMatch": "medium"
+    },
+    {
+      "title": "Homo Homini Lupus",
+      "size": "90 cm x 90 cm",
+      "medium": "Mix Media on Canvas",
+      "year": 2026,
+      "price": "Rp 12.500.000",
+      "description": "Suatu perjalanan peradaban manusia dengan segala macam kepentingannya atas nama kemanusiaan selalu bertolak belakang dengan kenyataan yang terjadi, mereka menjadi binatang yang kejam satu sama lain; membunuh, menyiksa, memperbudak terhadap siapa saja yang lemah tidak berdaya.",
+      "labelPhoto": "cad4fb2a-0a1a-4c63-bfd2-c4d717207521.jpg",
+      "photos": [
+        "1f0df81f-4149-40af-b1da-3fee1c095f98.jpg"
+      ],
+      "id": "hendung-tunggal-jati--homo-homini-lupus",
+      "artistId": "hendung-tunggal-jati",
+      "photoMatch": "high"
+    },
+    {
+      "title": "Koar-Koar",
+      "size": "35 cm x 45 cm",
+      "medium": "Mix Media on Canvas",
+      "year": 2026,
+      "price": "Rp 2.300.000",
+      "description": "Visualisasi dari kata dan perbuatan yang selalu bertolak belakang namun tetap membawa konsekuensi.",
+      "labelPhoto": "e17b7307-7abe-458e-b456-c3248f035a2b.jpg",
+      "photos": [],
+      "id": "hendung-tunggal-jati--koar-koar",
+      "artistId": "hendung-tunggal-jati",
+      "photoMatch": "none"
+    },
+    {
+      "title": "Parimarma",
+      "size": "60 cm x 45 cm",
+      "medium": "Ekstrak Daun Kelor, Pandan Suji, Mahoni, Daun Ketapang, Tanduk Rusa, Batu Pere, Batu Zhusha, Jelaga diatas Kertas Montval 300gsm",
+      "year": 2026,
+      "price": "Rp 4.000.000",
+      "description": "Keadilan rupanya punya seragam. Berdiri tegak wajahnya tenang seperti tidak pernah punya urusan dengan manusia yang sedang ribut di bawahnya. Kita sudah begitu akrab dengan bentuk itu sampai lupa bertanya, sejak kapan keadilan harus memakai wajah seperti itu. Maka tubuhnya saya biarkan tumbuh menjadi pohon. Bukan lagi sosok yang datang dari tempat jauh untuk mengajari kita bagaimana menimbang, tetapi sesuatu yang harus berakar di tanah tempat manusia hidup, makan, bertengkar, mencintai, dan saling berebut hak. Kalau hukum hanya sibuk meniru bentuk yang sudah jadi, barangkali ia memang akan terlihat gagah, tetapi belum tentu mengerti tanah yang dinjaknya.",
+      "labelPhoto": "499a3ba1-ca68-4627-a8e2-6131ebc1df3c.jpg",
+      "photos": [
+        "05555ab7-0c40-4008-a816-d3557b43af78.jpg"
+      ],
+      "id": "kharisma-adi--parimarma",
+      "artistId": "kharisma-adi",
+      "photoMatch": "high"
+    },
+    {
+      "title": "Tanpa Palupi",
+      "size": "60 cm x 47 cm",
+      "medium": "Ekstrak Daun Kelor, Pandan Suji, Mahoni, Daun Ketapang, Tanduk Rusa, Batu Pere, Batu Zhusha, Jelaga diatas Kertas Montval 300gsm",
+      "year": 2026,
+      "price": "Rp 4.000.000",
+      "description": "Padi dan kapas berdiri sebagai lambang yang sudah terlalu sering kita hafal, keadilan sosial bagi seluruh rakyat Indonesia. Di antara keduanya saya sisipkan sebuah sendok. Benda kecil yang tugasnya sederhana mengambil, menyuap, dan memasukkan sesuatu ke dalam mulut. Sendok itu sengaja mengambil bentuk Eropa, seolah-olah ada sesuatu yang datang dari luar dan sampai hari ini masih ikut menentukan bagaimana kita makan, bagaimana kita mengatur meja, bahkan bagaimana kita memandang diri sendiri. Tetapi pada pangkalnya terlihat Semar. Bukan raja, bukan pejabat, bukan juga manusia biasa. Ia dewa yang memilih menjadi rakyat. Mungkin karena memilih menjadi dewa terlalu mudah, sementara menjadi manusia ternyata jauh lebih sulit.",
+      "labelPhoto": "499a3ba1-ca68-4627-a8e2-6131ebc1df3c.jpg",
+      "photos": [
+        "05555ab7-0c40-4008-a816-d3557b43af78.jpg"
+      ],
+      "id": "kharisma-adi--tanpa-palupi",
+      "artistId": "kharisma-adi",
+      "photoMatch": "high"
+    },
+    {
+      "title": "Fragment Energy",
+      "size": "36 cm x 36 cm",
+      "medium": "Ekstrak Kelor, Buah Maja, Dan Mahoni Diatas Kertas Daluang",
+      "year": 2023,
+      "price": "Rp 2.000.000/each",
+      "description": "Ada benda-benda yang sejak kecil sudah diajari untuk kita percaya. Tedhak siten bukan pula sekadar barang yang kebetulan diletakkan di dalam kurungan ayam. Anak memilih salah satunya, lalu orang dewasa mulai sibuk membaca masa depan. Seolah nasib bisa disimpan di dalam sebuah kurungan, kemudian tinggal menunggu tangan kecil menentukan kemana hidup akan berjalan. Ingatan itu saya tarik kembali ke kehidupan sekarang. Benda-benda itu kemudian saya susun ulang menjadi fragmen, potongan kecil dari ingatan yang mungkin sudah tua, tetapi ternyata masih menyimpan cara manusia memahami hidup.",
+      "labelPhoto": "499a3ba1-ca68-4627-a8e2-6131ebc1df3c.jpg",
+      "photos": [
+        "05555ab7-0c40-4008-a816-d3557b43af78.jpg"
+      ],
+      "panels": 4,
+      "id": "kharisma-adi--fragment-energy",
+      "artistId": "kharisma-adi",
+      "photoMatch": "high"
+    },
+    {
+      "title": "Selepas 7 Lantas Berlipat Ganda",
+      "size": "22 cm x 22 cm",
+      "medium": "Watercolor on Paper",
+      "year": 2026,
+      "price": "Rp 1.200.000/each",
+      "description": "Pelekatan frasa 'berlipat ganda' setelah kata 7 adalah tatapan dan usaha untuk menampakkan hal-hal baik saat menginjak siklus hidup baru dan peran diri sebagai perempuan yang kian majemuk.",
+      "labelPhoto": "4a98a8bd-ceae-4387-9e07-20eefb286114.jpg",
+      "photos": [
+        "c11af28c-12ec-442a-bbb6-1a9e0d1117e0.jpg"
+      ],
+      "panels": 3,
+      "id": "osyadha-ramadhana--selepas-7-lantas-berlipat-ganda",
+      "artistId": "osyadha-ramadhana",
+      "photoMatch": "medium"
+    },
+    {
+      "title": "Katharsis",
+      "size": "100 cm x 110 cm",
+      "medium": "Acrylic on Canvas",
+      "year": 2026,
+      "price": "Rp 9.000.000",
+      "description": "Setiap orang dewasa dituntut untuk memiliki pekerjaan demi memenuhi kebutuhan hidupnya. Dalam menjalani pekerjaan tersebut, hampir semua orang pasti pernah mengalami kejenuhan. Di satu sisi, harus bekerja. Disisi lain, ingin menjadi seorang seniman. Pertanyaannya, bagaimana cara menjalankan kedua peran tersebut dengan baik? Saya bekerja dari pukul 09.00 hingga 17.00. Beruntungnya, saya pulang tepat pada suasana mulai terasa sejuk dan pemandangan alam terlihat begitu indah. Entah mengapa, perjalanan pulang tersebut menjadi momen yang sangat berarti bagi saya. Momen tersebut memberikan ketenangan dan energi baru bagi saya. Karena itu, perjalanan pulang bukan hanya sekedar perjalanan menuju rumah, tetapi juga menjadi proses penting untuk memulihkan diri serta emosi (katharsis).",
+      "labelPhoto": "4d4f4c0d-07af-4828-9841-d84ce76611e0.jpg",
+      "photos": [
+        "5009003b-23e1-4b81-89ac-d658fddc858f.jpg",
+        "7631c4fd-ac7a-43e2-a78b-acb89f990903.jpg"
+      ],
+      "id": "bagas-rachelma--katharsis",
+      "artistId": "bagas-rachelma",
+      "photoMatch": "low"
+    },
+    {
+      "title": "Semaian",
+      "size": "60 cm x 30 cm",
+      "medium": "Acrylic on Canvas",
+      "year": 2026,
+      "price": "Rp 5.500.000",
+      "description": "Bak benih tumbuhan yang tumbuh dan siap ditanam kembali di lahan yang lebih luas (semaian), karya ini bercerita tentang seseorang yang harus terus belajar dan menempa dirinya agar menyadari bahwa manusia perlu keluar dari zona batasnya, berkembang, serta mampu bersaing dengan orang lain.",
+      "labelPhoto": "c7abd620-cfbb-48fc-92fb-8c55b33520ab.jpg",
+      "photos": [
+        "5009003b-23e1-4b81-89ac-d658fddc858f.jpg"
+      ],
+      "id": "bagas-rachelma--semaian",
+      "artistId": "bagas-rachelma",
+      "photoMatch": "low"
+    },
+    {
+      "title": "Penyesuaian",
+      "size": "30 cm x 30 cm",
+      "medium": "Acrylic on Canvas",
+      "year": 2026,
+      "price": "Rp 3.500.000",
+      "description": "Karya \"Penyesuaian\" menggambarkan sebuah tanaman yang seharusnya hidup di dalam ruangan, tetapi kini harus bertahan hidup di hamparan gurun yang luas dan panas. Fenomena tersebut diinterpretasikan sebagai gambaran kondisi manusia yang lazim dialami dalam kehidupannya. Penyesuaian menjadi suatu keharusan. Tanaman tersebut harus beradaptasi dan berjuang untuk bertahan hidup, meskipun berada di tempat yang bukan seharusnya.",
+      "labelPhoto": "c7abd620-cfbb-48fc-92fb-8c55b33520ab.jpg",
+      "photos": [
+        "5009003b-23e1-4b81-89ac-d658fddc858f.jpg"
+      ],
+      "panels": 2,
+      "id": "bagas-rachelma--penyesuaian",
+      "artistId": "bagas-rachelma",
+      "photoMatch": "medium"
+    },
+    {
+      "title": "Entangled",
+      "size": "30 cm x 40 cm",
+      "medium": "Charcoal & Acrylic on Canvas",
+      "year": 2026,
+      "price": "Rp 5.000.000",
+      "description": "Merencanakan masa depan bisa terasa sangat berat. Mereka terbebani oleh perjuangannya sehingga tidak dapat membayangkan masa depan. Bukan berarti tidak punya mimpi atau aspirasi, hanya saja beban yang dipikul saat ini sangat berat sehingga tidak bisa melihat masa depan.",
+      "labelPhoto": "4dc0420b-6ec7-4a20-bf64-a2f8a2376f09.jpg",
+      "photos": [
+        "254e6226-d603-4f29-a4c1-77c38efea255.jpg"
+      ],
+      "id": "dimas-prayogo--entangled",
+      "artistId": "dimas-prayogo",
+      "photoMatch": "low"
+    },
+    {
+      "title": "West Wind",
+      "size": "120 cm x 100 cm",
+      "medium": "Charcoal & Acrylic on Canvas",
+      "year": 2024,
+      "price": "Rp 17.000.000",
+      "description": "Disini saya menceritakan kegelisahan seorang nelayan Pada musim paceklik yang juga sebagai salah satu indikator musim hujan di Indonesia bagian barat, kecepatan angin cukup kencang, bisa lebih dari 50 kilometer per jam dengan tinggi gelombang laut mencapai 1–3 meter. Dengan kondisi seperti itu, masyarakat nelayan benar-benar masuk kategori miskin dan tidak bisa memenuhi kebutuhan sehari-hari keluarganya. berdampak pada aktivitas nelayan terganggu secara total, karena tidak bisa melaut untuk menangkap ikan kurang lebih selama 3 bulan.",
+      "labelPhoto": "4ebd8b08-ff74-4d11-869b-7cb48ebe8be7.jpg",
+      "photos": [
+        "0eb11d0a-a753-4fc7-afd0-80d078892201.jpg",
+        "e473b21e-8685-42af-bcdd-0c696cbdfd05.jpg"
+      ],
+      "id": "dimas-prayogo--west-wind",
+      "artistId": "dimas-prayogo",
+      "photoMatch": "low"
+    },
+    {
+      "title": "Merajut Asa",
+      "size": "100 cm x 100 cm",
+      "medium": "Charcoal & Acrylic on Canvas",
+      "year": 2023,
+      "price": "Rp 15.000.000",
+      "description": "Dalam perjalanan panjang sejarah nelayan Indonesia, kita dapat melihat bahwa mereka telah melewati masa sulit dan perubahan yang signifikan. Dari tradisi hingga modernitas, kisah perjalanan nelayan Indonesia adalah cerminan dari ketangguhan dan adaptasi manusia terhadap perubahan zaman.",
+      "labelPhoto": "5fc63f5b-614c-4acb-86b7-7867bca63719.jpg",
+      "photos": [],
+      "id": "dimas-prayogo--merajut-asa",
+      "artistId": "dimas-prayogo",
+      "photoMatch": "none",
+      "note": "Dikonfirmasi pemilik proyek: Merajut Asa adalah figur bertopi putih di Ruang Pamer 2. Foto 5ddd59af-a678-44d0-849e-50cec72ad04e.jpg menampilkan lukisan lain di dinding kiri."
+    },
+    {
+      "title": "Cooporate",
+      "size": "100 cm x 100 cm",
+      "medium": "Charcoal & Acrylic on Canvas",
+      "year": 2023,
+      "price": "Rp 15.000.000",
+      "description": "Semangat gotong royong hingga kini masih terjaga di kalangan pesisir. Dalam berbagai kesempatan, nelayan saling bahu membahu menyelesaikan pekerjaan. Semangat gotong royong tersebut tampak di berbagai momen. Di kalangan masyarakat nelayan, salah satunya adalah saat para nelayan menurunkan perahu baru yang akan digunakan untuk melaut. Puluhan warga pesisir saling bahu membahu menarik perahu yang telah selesai penggarapannya di daratan menuju ke perairan. Selain itu ada tradisi petik laut. Kegiatan ini menjadi bukti nyata bahwa kekompakan dan persatuan masyarakat pesisir masih sangat kuat, bahkan di tengah tantangan zaman modern. Warga berharap, mereka bisa lebih produktif di laut dan kesejahteraan mereka semakin meningkat.",
+      "labelPhoto": "5fc63f5b-614c-4acb-86b7-7867bca63719.jpg",
+      "photos": [],
+      "note": "Judul tercetak \"Cooporate\" di label; jangan dikoreksi tanpa konfirmasi seniman. Dikonfirmasi pemilik proyek: lukisan kumpulan ikan di Ruang Pamer 2.",
+      "id": "dimas-prayogo--cooporate",
+      "artistId": "dimas-prayogo",
+      "photoMatch": "none"
+    },
+    {
+      "title": "Persuasion",
+      "size": "100 cm x 100 cm",
+      "medium": "Charcoal & Acrylic on Canvas",
+      "year": 2024,
+      "price": "Rp 15.000.000",
+      "description": "Sebagai negara maritim, indonesia dikelilingi oleh perairan yang sangat luas. Potensi yang melimpah dimanfaatkan masyarakat yang bermata pencaharian sebagai nelayan tradisional, Namun keberadaan mereka dikalahkan oleh nelayan modern sehingga perlu adanya upaya untuk meningkatkan kesejahteraan nelayan tradisional. Dapat disimpulkan bahwa penyebab kemiskinan diantaranya adanya keterbatasan di sektor pendidikan, minimnya teknologi, keterbatasan akses modal, terbatasnya potensi sumberdaya laut, dan persaingan yang intensif. Kemiskinan tersebut berdampak kepada kondisi lingkungan sekitar mereka yang saling bersaing untuk merubah mata pencaharian mereka dengan cara meminjam dana kepada tengkulak atau bank, karena alat yang digunakan nelayan modern berevolusi menjadi lebih canggih dan mumpuni seiring dengan perkembangan zaman.",
+      "labelPhoto": "cda77fb7-e019-4c60-9c2a-e468f22e8096.jpg",
+      "photos": [
+        "5ddd59af-a678-44d0-849e-50cec72ad04e.jpg"
+      ],
+      "id": "dimas-prayogo--persuasion",
+      "artistId": "dimas-prayogo",
+      "photoMatch": "low"
+    },
+    {
+      "title": "A Fragment of Landscape",
+      "size": "15 cm x 20 cm",
+      "medium": "Mixed Media on Paper",
+      "year": 2020,
+      "price": "Rp 800.000/each",
+      "description": "Karya ini dihasilkan dengan pendekatan kerja; live sketch (menggambar objek tangkapan secara langsung ditempat). Menangkap lanskap sekitar yang dilakukan disela-sela kegiatan sehari-hari.",
+      "labelPhoto": "65ef9190-8f39-4c71-85c9-463c855a5fe5.jpg",
+      "photos": [
+        "1025140c-f9f7-4303-ba0e-d812e2e22962.jpg"
+      ],
+      "note": "Label menampilkan deret panel kecil (sekitar 15 bingkai) dalam satu baris.",
+      "panels": 15,
+      "id": "rodlyta-ittabi-ulya--a-fragment-of-landscape",
+      "artistId": "rodlyta-ittabi-ulya",
+      "photoMatch": "medium"
+    },
+    {
+      "title": "Komponen no.1 \"Bayang-bayang\" dari instalasi Bayang-Bayang Misteri dan Misteri Bayang-Bayang",
+      "size": "Variable Dimension",
+      "medium": "Arduino Mega, Sensor Ultrasonic, Motor Stepper Nema 17, cat akrilik dan Styrofoam",
+      "year": 2026,
+      "price": "Rp 4.000.000",
+      "description": "Memandang folklor bukan sebagai pengetahuan yang telah selesai, melainkan sebagai proses yang terus diproduksi melalui ketakutan, rasa ingin tahu, imajinasi, dan kebutuhan manusia untuk menjelaskan sesuatu yang berada di luar jangkauan nalar. Ketika sebuah fenomena tidak memiliki jawaban, manusia menciptakan cerita; ketika ruang terasa gelap, ia membayangkan sosok yang menghuninya. Dalam proses tersebut, folklor bekerja sebagai teknologi imajinasi, sebuah cara manusia memahami ketidakpastian sekaligus membangun hubungan dengan dunia di sekitarnya. Kemunculan sosok hantu melalui sensor gerak menghadirkan efek kejut yang berada di luar kendali pengunjung, memperlihatkan bagaimana sugesti dan antisipasi membentuk rasa takut. Cerita melahirkan imajinasi, imajinasi melahirkan ketakutan, ketakutan melahirkan simbol, dan simbol memperkuat kepercayaan. Dari siklus inilah folklor terus hidup, berubah, dan melahirkan cerita-cerita baru.",
+      "labelPhoto": "6fb9e4d7-11a1-4c18-be34-06bd935f6665.jpg",
+      "photos": [],
+      "note": "Instalasi di ruang patung-gerak (bak mandi dengan figur berselimut). Tidak ada foto karya terpisah; pakai panorama sebagai visualnya.",
+      "id": "anggun-setiawan-nadia-vina-maharani--komponen-no-1-bayang-bayang-dari-instalasi-bayan",
+      "artistId": "anggun-setiawan-nadia-vina-maharani",
+      "photoMatch": "none"
+    },
+    {
+      "title": "Drowning (the death of Ophelia – 2023 CE [in the Anthropocene])",
+      "size": "100 cm x 80 cm",
+      "medium": "Acrylic on Canvas",
+      "year": 2024,
+      "price": "Rp 10.400.000",
+      "description": "Drowning menggeser tragedi romantik Ophelia ke dalam krisis ekologis Antroposen. Figur yang tenggelam di antara limbah plastik menjadi alegori keterputusan manusia dari alam, sementara plastik—ikon modernitas dan konsumsi—berubah menjadi material kehancuran yang diciptakan manusia sendiri. Dengan menggantikan bunga-bunga Ophelia dengan fragmen plastik, karya ini mempertanyakan gagasan kemajuan yang dibangun melalui dominasi dan eksploitasi alam.",
+      "labelPhoto": "71bf2b85-2868-43fe-80ba-bea32980bab3.jpg",
+      "photos": [
+        "3168dbff-9e2f-428a-80cc-237580456029.jpg"
+      ],
+      "id": "andreas-wijaya--drowning-the-death-of-ophelia-2023-ce-in-the-ant",
+      "artistId": "andreas-wijaya",
+      "photoMatch": "high"
+    },
+    {
+      "title": "Parade Laut",
+      "size": "50 cm x 50 cm",
+      "medium": "Pencil on Canvas",
+      "year": 2026,
+      "price": "Rp 5.000.000",
+      "description": "Manusia, matahari, tanah, bulan, langit, laut, suara-suara, dan sesuatu yang datang dari arah yang tidak terduga. Semuanya bergerak, melangkah. Perahu itu adalah perjalanan, mungkin juga tanggung jawab yang tidak bisa ditinggalkan. Ia membawanya kemanapun melangkah, seperti manusia yang tidak pernah benar-benar bisa meletakkan beban hidupnya. Namun ia tetap berjalan. Tidak terlihat sedang melawan, juga tidak sedang menyerah.",
+      "labelPhoto": "94fab039-03a4-465d-b0e0-7b9e15efe51f.jpg",
+      "photos": [
+        "2367476e-fb03-4619-bc02-98290f06fd0d.jpg"
+      ],
+      "id": "sihabudin--parade-laut",
+      "artistId": "sihabudin",
+      "photoMatch": "low"
+    },
+    {
+      "title": "Impen",
+      "size": "50 cm x 50 cm",
+      "medium": "Pencil on Canvas",
+      "year": 2026,
+      "price": "Rp 5.000.000",
+      "description": "Mimpi sang nelayan tentang akan tiba masa yang sulit, dengan tanda tanda zaman. Karya ini menggambarkan ketakutan mendalam yang dialami sang nelayan dalam mimpinya. Di dalam mimpi buruk itu, ia melihat dirinya terombang-ambing kebingungan akan arah di tengah samudera yang gelap, tanpa bintang di langit untuk menuntun jalannya lagi. Ketakutan akan hilangnya mata pencaharian dalam tidur lelapnya. Tanda yang belum pernah sama sekali ia alami sebelumnya hingga dirinya seakan termakan ikan tangkapannya sendiri. mimpi yang penuh dengan ketidakpastian dan ketakutan akan hilangnya kehidupan yang ia kenal. tetapi juga bayangan dalam pikirannya sendiri.",
+      "labelPhoto": "94fab039-03a4-465d-b0e0-7b9e15efe51f.jpg",
+      "photos": [
+        "2367476e-fb03-4619-bc02-98290f06fd0d.jpg"
+      ],
+      "id": "sihabudin--impen",
+      "artistId": "sihabudin",
+      "photoMatch": "low"
+    },
+    {
+      "title": "Jam 7:30",
+      "size": "90 cm x 70 cm",
+      "medium": "Acrylic on Canvas",
+      "year": 2026,
+      "price": "Rp 13.500.000",
+      "description": "Lukisan berjudul jam 7:30 ini menjadi bagian dari pameran tunggal ku yang berjudul Home. Media akrilik diatas kanvas dengan brush strokes yang menonjol memperkuat emosi dari lukisan ini. Jam 7:30 adalah suasana sepi tapi aktif. Saat anak anak sudah berangkat sekolah, maka ibu mulai aktif merapikan rumah, dapur dan lain lain.",
+      "labelPhoto": "9653a184-6feb-485a-bc47-f73d0ee047cf.jpg",
+      "photos": [
+        "b246db7c-db1e-4553-8e66-4e59cc49d74c.jpg"
+      ],
+      "id": "mujib-darjo--jam-7-30",
+      "artistId": "mujib-darjo",
+      "photoMatch": "high"
+    },
+    {
+      "title": "Cermin Besar",
+      "size": "60 cm x 80 cm",
+      "medium": "Acrylic on Canvas",
+      "year": 2026,
+      "price": "Rp 10.500.000",
+      "description": "Lukisan ini adalah kamar mandi dari hotel dari hotel Lampion di kota Solo. Lukisan ini menggunakan media akrilik di atas kanvas. Brush strokes yang kentara mempertegas perasaan seniman tentang nuansa dingin dan kaku di tambah dengan nuansa putih dan biru muda.",
+      "labelPhoto": "a1f134cb-bdaa-4015-8754-06825aca7e11.jpg",
+      "photos": [
+        "ebece5d1-9c9c-44a6-a1e7-3268c5b51d6d.jpg"
+      ],
+      "id": "mujib-darjo--cermin-besar",
+      "artistId": "mujib-darjo",
+      "photoMatch": "low"
+    },
+    {
+      "title": "Tidak Seperti di Rumah",
+      "size": "60 cm x 80 cm",
+      "medium": "Acrylic on Canvas",
+      "year": 2026,
+      "price": "Rp 10.500.000",
+      "description": "Karya ini adalah lukisan kamar mandi di kamar hotel Lampion di kota Solo. Lukisan yang didominasi oleh warna biru muda menunjukkan ketegangan dan kesepian. Brush strokes yang dibuat juga mempertegas perasaan seniman saat menangkap momen sendiri di kamar mandi sebuah hotel.",
+      "labelPhoto": "a1f134cb-bdaa-4015-8754-06825aca7e11.jpg",
+      "photos": [
+        "ebece5d1-9c9c-44a6-a1e7-3268c5b51d6d.jpg"
+      ],
+      "id": "mujib-darjo--tidak-seperti-di-rumah",
+      "artistId": "mujib-darjo",
+      "photoMatch": "low"
+    },
+    {
+      "title": "Mencuci Baju Di Hari Lebaran Kedua",
+      "size": "60 cm x 80 cm",
+      "medium": "Acrylic on Canvas",
+      "year": 2026,
+      "price": "Rp 10.500.000",
+      "description": "Mencuci baju di hari kedua lebaran adalah sebuah pengalaman seniman saat kecil. Baju dan celana baru satu stel dipakai saat hari lebaran pertama. Untuk hari kedua tidak ada jadwal berkunjung ke saudara karena baju baru sedang dicuci ibu.",
+      "labelPhoto": "a1f134cb-bdaa-4015-8754-06825aca7e11.jpg",
+      "photos": [
+        "ebece5d1-9c9c-44a6-a1e7-3268c5b51d6d.jpg"
+      ],
+      "id": "mujib-darjo--mencuci-baju-di-hari-lebaran-kedua",
+      "artistId": "mujib-darjo",
+      "photoMatch": "medium"
+    },
+    {
+      "title": "Jeda",
+      "size": "90 cm x 70 cm",
+      "medium": "Acrylic on Canvas",
+      "year": 2026,
+      "price": "Rp 13.500.000",
+      "description": "Lukisan ini adalah ruang tamu dari rumah seniman nya. Jeda adalah tentang ruang, waktu, keinginan dan lain lain. Ruang tamu sering mencatat sejarah, ketegangan, kehangatan, kerapuhan, dan banyak hal karena ruang tamu menjadi ruang sosial. Lukisan ini menggunakan media akrilik di atas kanvas dengan menggunakan tekhnik kering dan perspektif melengkung seperti membungkus waktu.",
+      "labelPhoto": "aa391e93-54d4-4ce8-9eac-58d35d132a24.jpg",
+      "photos": [
+        "606d32f8-b3dc-4b0c-bd27-74be5fd0f0c4.jpg"
+      ],
+      "id": "mujib-darjo--jeda",
+      "artistId": "mujib-darjo",
+      "photoMatch": "high"
+    },
+    {
+      "title": "Luka",
+      "size": "90 cm x 70 cm",
+      "medium": "Acrylic on Canvas",
+      "year": 2026,
+      "price": "Rp 13.500.000",
+      "description": "Lukisan yang dibuat awal tahun 2026 ini berjudul Luka. Lukisan dengan media akrilik diatas kanvas ini menggunakan warna monokrom. Dominasi hitam menciptakan ketegangan, kesepian serta kerapuhan. Lukisan yang berjudul Luka ini tentang bagaimana cahaya bisa masuk melewatinya. Manusia butuh luka untuk mendapatkan cahaya.",
+      "labelPhoto": "dac9c68c-2538-4ae5-a75f-2ab5295cb968.jpg",
+      "photos": [
+        "54dbd51f-096c-4070-8ddc-c1d644394f9e.jpg"
+      ],
+      "id": "mujib-darjo--luka",
+      "artistId": "mujib-darjo",
+      "photoMatch": "medium"
+    },
+    {
+      "title": "Aku Melihatmu di Pagi Buta",
+      "size": "40 cm x 50 cm",
+      "medium": "Acrylic on Canvas",
+      "year": 2026,
+      "price": "Rp 4.000.000",
+      "description": "Karya ini lahir dari sebuah mimpi yang datang menjelang subuh. Kekasih yang selalu dirindukan dan membawa kedamaian hati. Dalam lukisan ini kekasih digambarkan dengan lukisan tumbuhan yang ada di dinding ruang keluarga. Pohon itu adalah pohon Sahabi",
+      "labelPhoto": "f7a2cd2f-c68d-46b1-ad6d-7181efdf156e.jpg",
+      "photos": [
+        "cf78002e-2538-4573-807b-edcc88dafb68.jpg"
+      ],
+      "note": "Kalimat terakhir pada label berhenti di \"Sahabi\" tanpa tanda baca.",
+      "id": "mujib-darjo--aku-melihatmu-di-pagi-buta",
+      "artistId": "mujib-darjo",
+      "photoMatch": "low"
+    },
+    {
+      "title": "Peraduan Bertahta Gunung",
+      "size": "40 cm x 50 cm",
+      "medium": "Acrylic on Canvas",
+      "year": 2026,
+      "price": "Rp 4.000.000",
+      "description": "Pemilihan warna merah muda sebagai warna dominan ini sebagai simbol kehangatan, intim dan cinta. Objek tempat tidur ini diangkat sebagai simbol memori kolektif. \"Peraduan\" atau tempat tidur diartikan sebagai ruang paling privat bagi manusia untuk beristirahat, merenung, dan memulihkan diri. Kehadiran ruang yang sunyi namun hangat ini mengajak penikmatnya untuk pulang kembali ke dalam ingatan masa lalu dan merefleksikan arti kenyamanan sebuah rumah.",
+      "labelPhoto": "f7a2cd2f-c68d-46b1-ad6d-7181efdf156e.jpg",
+      "photos": [
+        "cf78002e-2538-4573-807b-edcc88dafb68.jpg"
+      ],
+      "id": "mujib-darjo--peraduan-bertahta-gunung",
+      "artistId": "mujib-darjo",
+      "photoMatch": "medium"
+    },
+    {
+      "title": "Reflection Around Us #1, #2, #3, #4, #5",
+      "size": "40 cm x 40 cm",
+      "medium": "Woodstain & Acrylic on Canvas",
+      "year": 2026,
+      "price": "Rp 1.600.000/each",
+      "description": "Karya ini merespon dinamika lanskap sekitar yang bertransisi dari kesuburan menuju kepungan kemarau. kepudaran atau kerapuhan sebuah objek ditangkap bukan sebagai bentuk kematian, melainkan sebagai objek atau bentuk ketahanan tempat dedaunan liar, daun berguguran, daun pisang kering, serta cabang-cabang yang mengeras saling berikatan mempertahankan hidup. Hembusan angin menyerakkan serpihan dedaunan maupun cabang, dalam wujud-wujud ambigu yang menjembatani narasi antar lanskap. sehingga dibalik tekstur tersebut, membentuk keromantisan dalam sebuah pemaknaan baru yang merayakan ketangguhan, metamorfosis batin, dan keindahan di tengah keheningan alam yang gersang.",
+      "labelPhoto": "96b5192c-2319-409f-a6bf-413f293763a7.jpg",
+      "photos": [
+        "2c6abe11-6d78-49f7-a107-fbc7915978d5.jpg"
+      ],
+      "note": "Label punya coretan tulisan tangan di tengah paragraf sehingga beberapa kata (sekitar \"daun pisang kering\" dan \"mempertahankan\") ditebak dari konteks. Cocokkan ulang dengan label fisik.",
+      "panels": 5,
+      "id": "victor-syahrul-akbar--reflection-around-us-1-2-3-4-5",
+      "artistId": "victor-syahrul-akbar",
+      "photoMatch": "medium"
+    },
+    {
+      "title": "Hiduplah dimasamu #2",
+      "size": "130 cm x 300 cm",
+      "medium": "Acrylic on canvas",
+      "year": 2026,
+      "description": "Karya ini merefleksikan bahwa setiap masa memiliki orang-orang yang hadir dan setiap orang memiliki waktunya sendiri. Warna tosca merepresentasikan ketenangan dalam menerima perubahan, Sementara krem merepresentasikan ruang yang ditinggalkan—seperti lembaran waktu yang memudar, namun tetap menyimpan kehangatan dari mereka yang pernah mengisinya. Sudut-sudut tumpul menjadi simbol bagaimana waktu perlahan melunakkan pertemuan, benturan, dan perpisahan di dalamnya. Sebab tidak semua yang hadir harus menetap, dan tidak semua yang berlalu kehilangan makna. Setiap orang meninggalkan jejak pada masanya, sebelum kehidupan membawa kita pada pertemuan berikutnya.",
+      "labelPhoto": "ad26e0f0-dfd9-4dc7-a881-c04f8816d096.jpg",
+      "photos": [
+        "8154bb22-4494-4582-a09e-dd86671b7df8.jpg"
+      ],
+      "note": "Label tidak mencantumkan harga; ada titik merah (kemungkinan tanda terjual).",
+      "status": "kemungkinan-terjual",
+      "id": "friski-jayantoro--hiduplah-dimasamu-2",
+      "artistId": "friski-jayantoro",
+      "photoMatch": "high"
+    },
+    {
+      "title": "The Morning After",
+      "size": "50 cm x 60 cm",
+      "medium": "Acrylic on canvas",
+      "year": 2026,
+      "price": "Rp 5.700.000",
+      "description": "Karya ini menggambarkan harapan akan hari esok setelah melewati masa sulit. Harapan sederhana yang selalu hadir setiap kali hari berganti, terbangun di pagi hari dengan cuaca cerah, menghirup udara segar, dan menikmati sarapan hangat dengan sayur-mayur. Kuning menjadi simbol cahaya pagi sekaligus semangat untuk kembali membuka diri terhadap berbagai kesempatan, sementara hijau merepresentasikan kehidupan yang terus tumbuh dan diperbarui. Melalui karya ini, tersirat sebuah pengingat bahwa kebahagiaan dapat ditemukan dalam kesederhanaan yang sering kali luput dari rasa syukur, seperti kesempatan untuk kembali bangun di pagi hari.",
+      "labelPhoto": "b34cf7d9-7313-4b35-b02a-76436bfda4f6.jpg",
+      "photos": [
+        "6e54cbf7-f953-4495-999b-0593ae318e9f.jpg"
+      ],
+      "id": "friski-jayantoro--the-morning-after",
+      "artistId": "friski-jayantoro",
+      "photoMatch": "medium"
+    },
+    {
+      "title": "Batasanku atau Batasanmu?",
+      "size": "100 cm x 40 cm",
+      "medium": "Black Gesso Paint on Frosted Acrylic",
+      "year": 2026,
+      "price": "Rp 12.000.000",
+      "description": "Karya panoramik ini menggambarkan perjalanan waktu serta perubahan alam dari masa ke masa. Alam yang dahulu berkembang melalui proses alaminya, kini semakin banyak diarahkan, dibatasi, dan dieksploitasi oleh manusia. Kotak putih dalam karya menjadi simbol kecenderungan manusia untuk membingkai alam sesuai kepentingannya sendiri, menjadikannya objek yang dinilai berdasarkan fungsi, kepemilikan, dan keindahan semata. Tindakan tersebut memperlihatkan betapa kecilnya penghargaan manusia terhadap sesuatu yang sesungguhnya tidak ternilai dan tidak dapat tergantikan.",
+      "labelPhoto": "b13656b8-82e9-43e1-a8e5-63dc92cde1ac.jpg",
+      "photos": [
+        "57820d8a-6b6a-4dff-a7ac-2eb1051f5b92.jpg"
+      ],
+      "id": "marselina-adeline--batasanku-atau-batasanmu",
+      "artistId": "marselina-adeline",
+      "photoMatch": "high"
+    },
+    {
+      "title": "Diktean Masa Depanku",
+      "size": "40 cm x 40 cm",
+      "medium": "Mix Media",
+      "year": 2026,
+      "price": "Rp 11.000.000",
+      "description": "Karya ini merefleksikan bagaimana alam dipandang dari sudut pandang pebisnis. Kota Batu, sebagai kota wisata, tidak lagi hanya berfungsi sebagai ruang rekreasi, tetapi juga menjadi medan pencarian peluang dan potensi ekonomi. Lipatan kertas merepresentasikan pemetaan lahan yang transparan namun pasti, sementara ukuran karya yang kecil menegaskan semakin renggangnya hubungan manusia dengan alam. Framing besi, pigura kayu, dan grafir \"Rp\" (Rupiah), merepresentasikan bagaimana alam di Batu kini dibingkai sebagai komoditas dalam ekonomi pariwisata.",
+      "labelPhoto": "b13656b8-82e9-43e1-a8e5-63dc92cde1ac.jpg",
+      "photos": [
+        "57820d8a-6b6a-4dff-a7ac-2eb1051f5b92.jpg"
+      ],
+      "id": "marselina-adeline--diktean-masa-depanku",
+      "artistId": "marselina-adeline",
+      "photoMatch": "high"
+    },
+    {
+      "title": "Evening Prayer #1",
+      "size": "48 cm x 48 cm",
+      "medium": "Acrylic on Canvas",
+      "year": 2026,
+      "price": "Rp 3.500.000",
+      "description": "\"Evening Prayer\" adalah seri lukisan yang berangkat dari pemahaman bahwa akar spiritual manusia tidak semata dibentuk oleh dari bangunan ruang ibadah, tetapi juga oleh relasi yang terjalin dengan alam. Pepohonan dan lanskap hutan dihadirkan sebagai ruang kontemplasi, tempat manusia menanggalkan hiruk-pikuk keseharian untuk kembali pada nilai-nilai yang menjadi fondasi keberadaannya. Seri ini menjadi ambang waktu yang lekat dengan peralihan, kesakralan dan jejak-jejak ritual sederhana menjadi penanda bahwa pengalaman spiritual tumbuh membaur melalui kedekatan alam sekitarnya.",
+      "labelPhoto": "c2a3aa50-6187-4c0b-ada9-1497b2cfdf91.jpg",
+      "photos": [
+        "a9d77f87-0894-4e88-9f3d-2c8aa0c30d1a.jpg"
+      ],
+      "note": "Satu teks label untuk seri #1 dan #2.",
+      "id": "tezar-ari-sandy--evening-prayer-1",
+      "artistId": "tezar-ari-sandy",
+      "photoMatch": "medium"
+    },
+    {
+      "title": "Evening Prayer #2",
+      "size": "48 cm x 48 cm",
+      "medium": "Acrylic on Canvas",
+      "year": 2026,
+      "price": "Rp 3.500.000",
+      "description": "\"Evening Prayer\" adalah seri lukisan yang berangkat dari pemahaman bahwa akar spiritual manusia tidak semata dibentuk oleh dari bangunan ruang ibadah, tetapi juga oleh relasi yang terjalin dengan alam. Pepohonan dan lanskap hutan dihadirkan sebagai ruang kontemplasi, tempat manusia menanggalkan hiruk-pikuk keseharian untuk kembali pada nilai-nilai yang menjadi fondasi keberadaannya. Seri ini menjadi ambang waktu yang lekat dengan peralihan, kesakralan dan jejak-jejak ritual sederhana menjadi penanda bahwa pengalaman spiritual tumbuh membaur melalui kedekatan alam sekitarnya.",
+      "labelPhoto": "c2a3aa50-6187-4c0b-ada9-1497b2cfdf91.jpg",
+      "photos": [
+        "a9d77f87-0894-4e88-9f3d-2c8aa0c30d1a.jpg"
+      ],
+      "note": "Satu teks label untuk seri #1 dan #2.",
+      "id": "tezar-ari-sandy--evening-prayer-2",
+      "artistId": "tezar-ari-sandy",
+      "photoMatch": "low"
+    },
+    {
+      "title": "Climax",
+      "size": "60 cm x 45 cm",
+      "medium": "Oil and Acrylic on Patterned Canvas",
+      "year": 2026,
+      "price": "Rp 5.000.000",
+      "description": "Karya ini aku gambarkan sebagai refleksi tentang euforia yang mengalahkan kesadaran. Karya ini tercipta agar menjadi pengingat bahwa setiap pilihan memiliki konsekuensi, dan kenikmatan yang tak terkendali dapat membawa resiko yang bukan hanya dirasakan diri sendiri tetapi juga orang lain.",
+      "labelPhoto": "fc258914-2678-4af0-884a-fdf6012addfb.jpg",
+      "photos": [
+        "d9b788a3-74ed-4510-b146-8a2c07b00eb8.jpg"
+      ],
+      "note": "Karya berbentuk potongan (cutout) bersiluet figur; label menggambar siluetnya.",
+      "id": "rizky-alison--climax",
+      "artistId": "rizky-alison",
+      "photoMatch": "high"
+    },
+    {
+      "title": "The Promise",
+      "size": "61 cm x 46 cm",
+      "medium": "Oil and Acrylic on Patterned Canvas",
+      "year": 2026,
+      "price": "Rp 6.500.000",
+      "description": "Kasih sayang dan pengorbanan seorang kakak yang berjuang agar adiknya memiliki masa depan yang lebih baik. Pedang berbentuk pensil menjadi simbol bahwa senjata sang kakak adalah pendidikan. Di tengah kehidupan yang sulit, ia menyimpan satu harapan: adiknya tidak harus menjalani kehidupan yang sama dengannya. The Promise adalah janji seorang kakak untuk menjaga, melindungi, dan membuka jalan bagi masa depan adiknya.",
+      "labelPhoto": "fc258914-2678-4af0-884a-fdf6012addfb.jpg",
+      "photos": [
+        "d9b788a3-74ed-4510-b146-8a2c07b00eb8.jpg"
+      ],
+      "note": "Karya berbentuk potongan (cutout) bersiluet figur.",
+      "id": "rizky-alison--the-promise",
+      "artistId": "rizky-alison",
+      "photoMatch": "high"
+    },
+    {
+      "title": "Kait",
+      "size": "20 x 20 x 40 cm",
+      "medium": "Kayu Jati, Besi, Batu Kali",
+      "year": 2025,
+      "price": "Rp 12.000.000",
+      "description": "Kait dipahami menjadi kata yang bisa diibaratkan sebagai sebuah kata sifat manusia yang dapat beradaptasi dimanapun, kapanpun, dalam kondisi apapun.\n\nterbentuk dari abstraksi yang menyerupai kait, yang dapat mengkait apa saja. pada dasarnya adalah bagaimana menggabungkan bentuk kait dengan batu. dan menjadi seperti ini.",
+      "labelPhoto": "gatot-kumaidi--kait-label.png",
+      "photos": [
+        "gatot-kumaidi--kait.jpg"
+      ],
+      "note": "Dikonfirmasi pemilik proyek melalui tangkapan layar katalog; foto dan data sumber: https://www.artmeru.com/id/artworks/kait",
+      "id": "gatot-kumaidi--kait",
+      "artistId": "gatot-kumaidi",
+      "photoMatch": "high"
+    },
+    {
+      "title": "Relax",
+      "size": "15 x 15 x 21 cm",
+      "medium": "Kayu Jati",
+      "year": 1995,
+      "price": "Rp 3.500.000",
+      "description": "Berlatih untuk melenturkan yang kaku dan lurus, relaxing.",
+      "labelPhoto": "gatot-kumaidi--relax-label.png",
+      "photos": [
+        "gatot-kumaidi--relax.jpg"
+      ],
+      "note": "Dikonfirmasi pemilik proyek melalui tangkapan layar katalog; foto dan data sumber: https://www.artmeru.com/id/artworks/relax",
+      "id": "gatot-kumaidi--relax",
+      "artistId": "gatot-kumaidi",
+      "photoMatch": "high"
+    },
+    {
+      "title": "Menetes",
+      "size": "15 x 15 x 35 cm",
+      "medium": "Kayu Jati",
+      "year": 1995,
+      "price": "Rp 5.000.000",
+      "description": "Berawal dari mengolah batangan kayu menjadi seperti tetesan air. Menetes adalah gerak benda cair dari atas ke bawah yang dipengaruhi gravitasi",
+      "labelPhoto": "gatot-kumaidi--menetes-label.png",
+      "photos": [
+        "gatot-kumaidi--menetes.png"
+      ],
+      "note": "Identitas dikonfirmasi melalui tangkapan layar katalog; foto lengkap diganti dengan gambar yang diberikan pemilik proyek. Sumber katalog: https://www.artmeru.com/id/artworks/menetes",
+      "id": "gatot-kumaidi--menetes",
+      "artistId": "gatot-kumaidi",
+      "photoMatch": "high"
+    },
+    {
+      "title": "Kawan Bergelut",
+      "size": "11 x 14 x 12.5 cm",
+      "medium": "Kayu Jati dan Kayu Leci",
+      "year": 2024,
+      "price": "Rp 2.000.000",
+      "description": "Dua bentuk saling mengikat ini serupa pertemanan yang sejak kecil sampai hari ini tetap memiliki kedekatan emosional namun memiliki langkah yang saling bersebrangan.",
+      "labelPhoto": "gatot-kumaidi--kawan-bergelut-label.png",
+      "photos": [
+        "gatot-kumaidi--kawan-bergelut.jpg"
+      ],
+      "note": "Dikonfirmasi pemilik proyek melalui tangkapan layar katalog: Kawan Bergelut berada di Ruang Pamer 3 bersama Menetes, menggantikan pemetaan lama ke Relax.",
+      "id": "gatot-kumaidi--kawan-bergelut",
+      "artistId": "gatot-kumaidi",
+      "photoMatch": "high"
+    }
+  ],
+  "unlabeledPhotos": [
+    {
+      "file": "2cde6438-85c3-47ab-82a0-362e59e9de08.jpg",
+      "description": "Lukisan hitam dengan guratan putih. Pemetaan sebelumnya ke Ritual Leluhur tidak cocok dengan konfirmasi foto dari pemilik proyek; judul dan seniman foto ini belum dipastikan."
+    }
+  ]
+}
