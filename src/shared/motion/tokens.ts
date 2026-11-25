@@ -40,6 +40,12 @@ export const TRAVEL = {
   fovDip: 3.5,
 } as const;
 
+export const WAKE = {
+  rise: 0.12,
+  cardDelay: 0.7,
+  settle: 0.9,
+} as const;
+
 export const LANDING = {
   heroPan: 1.1,
   heroPanSpan: 0.9,

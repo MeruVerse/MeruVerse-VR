@@ -56,7 +56,14 @@ async function startTour(): Promise<void> {
     onEndTour: (origin) => void playFarewell(origin),
   });
   if (portal) hideHud();
-  await createViewer({ tourScene, scenes: SCENES, store, onInfo: ui.openInfo, onHover: ui.hover });
+  await createViewer({
+    tourScene,
+    scenes: SCENES,
+    store,
+    onInfo: ui.openInfo,
+    onInfoClosed: ui.onInfoClosed,
+    onHover: ui.hover,
+  });
   void waitForPanorama(tourScene.sceneEl).then(hideLoader);
   if (portal) void playPortalEntry(portal, tourScene.sceneEl);
 

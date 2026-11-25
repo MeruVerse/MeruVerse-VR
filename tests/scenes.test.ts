@@ -144,6 +144,19 @@ describe('berkas panorama', () => {
     );
     expect(missing).toEqual([]);
   });
+
+  it('pose istirahat dan efek suara bangun ada di public/ untuk scene yang memilikinya', () => {
+    const poses = SCENES.flatMap((scene) => (scene.rest ? [scene.rest] : []));
+    expect(poses.length).toBeGreaterThan(0);
+    const soundFiles = new Set(Object.keys(import.meta.glob('/public/sfx/*')));
+    const missing = poses.flatMap((pose) => [
+      ...[pose.panorama, ...(pose.wakePanorama ? [pose.wakePanorama] : [])]
+        .flatMap((panorama) => [panorama.full, panorama.preview])
+        .filter((path) => !publicFiles.has(`/public${path}`)),
+      ...(soundFiles.has(`/public${pose.wakeSound}`) ? [] : [pose.wakeSound]),
+    ]);
+    expect(missing).toEqual([]);
+  });
 });
 
 describe('hotspot', () => {

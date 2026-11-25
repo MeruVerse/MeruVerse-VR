@@ -1,5 +1,5 @@
 import { withBase } from '../../shared/base-url';
-import type { Hotspot, NavHotspot, Scene, SceneId, Zone, ZoneId } from './types';
+import type { Hotspot, NavHotspot, Panorama, Scene, SceneId, Zone, ZoneId } from './types';
 
 export const START_SCENE_ID: SceneId = 'pintu-masuk';
 
@@ -9,6 +9,14 @@ function nav(owner: SceneId, target: SceneId, yaw: number, pitch: number): NavHo
 
 interface SceneView {
   readonly initialYaw?: number;
+  /** Akhiran berkas panorama pose istirahat, misalnya 'baring' untuk `<id>-baring.webp`. */
+  readonly rest?: string;
+  /** Akhiran berkas panorama pose bangun; tanpa ini karya bangun ke panorama utama. */
+  readonly wake?: string;
+}
+
+function panoramaAt(name: string): Panorama {
+  return { full: withBase(`/panos/${name}.webp`), preview: withBase(`/panos/${name}-lq.webp`) };
 }
 
 function scene(
@@ -23,7 +31,16 @@ function scene(
     title,
     zone,
     initialYaw: view.initialYaw ?? 0,
-    panorama: { full: withBase(`/panos/${id}.webp`), preview: withBase(`/panos/${id}-lq.webp`) },
+    panorama: panoramaAt(id),
+    ...(view.rest
+      ? {
+          rest: {
+            panorama: panoramaAt(`${id}-${view.rest}`),
+            ...(view.wake ? { wakePanorama: panoramaAt(`${id}-${view.wake}`) } : {}),
+            wakeSound: withBase(`/sfx/${id}-bangun.mp3`),
+          },
+        }
+      : {}),
     hotspots,
   };
 }
@@ -402,18 +419,24 @@ export const SCENES: readonly Scene[] = [
       artworkIds: ['rodlyta-ittabi-ulya--a-fragment-of-landscape'],
     },
   ]),
-  scene('patung-gerak', 'Patung Gerak', 'ruang-pamer-4', [
-    nav('patung-gerak', 'lantai-atas', 162.2, -3.3),
-    {
-      id: 'info-patung-gerak-anggun-setiawan-nadia-vina-maharani--komponen-no-1-bayang-bayang-dari-instalasi-bayan',
-      type: 'info',
-      yaw: 2.5,
-      pitch: -33,
-      artworkIds: [
-        'anggun-setiawan-nadia-vina-maharani--komponen-no-1-bayang-bayang-dari-instalasi-bayan',
-      ],
-    },
-  ]),
+  scene(
+    'patung-gerak',
+    'Patung Gerak',
+    'ruang-pamer-4',
+    [
+      nav('patung-gerak', 'lantai-atas', 162.2, -3.3),
+      {
+        id: 'info-patung-gerak-anggun-setiawan-nadia-vina-maharani--komponen-no-1-bayang-bayang-dari-instalasi-bayan',
+        type: 'info',
+        yaw: -8.5,
+        pitch: -17,
+        artworkIds: [
+          'anggun-setiawan-nadia-vina-maharani--komponen-no-1-bayang-bayang-dari-instalasi-bayan',
+        ],
+      },
+    ],
+    { rest: 'baring', wake: 'bangun' },
+  ),
   scene('ruang-pamer-lantai-atas', 'Ruang Pamer Lantai Atas', 'ruang-karya-figur', [
     nav('ruang-pamer-lantai-atas', 'lorong', 5.7, -26.8),
     {

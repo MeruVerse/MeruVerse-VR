@@ -23,6 +23,8 @@ export interface TourUiOptions {
 
 export interface TourUi {
   openInfo(hotspot: InfoHotspot): void;
+  /** Mendaftarkan pendengar yang dipanggil setiap kartu info ditutup. */
+  onInfoClosed(listener: () => void): Cleanup;
   hover(target: TipTarget | null): void;
   dispose: Cleanup;
 }
@@ -30,6 +32,7 @@ export interface TourUi {
 export function createTourUi(options: TourUiOptions): TourUi {
   const { root, store, scenes } = options;
   const byId = new Map(scenes.map((scene) => [scene.id, scene]));
+  const infoClosedListeners = new Set<() => void>();
 
   const roomMap = createRoomMap({
     parent: root,
@@ -45,6 +48,10 @@ export function createTourUi(options: TourUiOptions): TourUi {
     artworks: options.artworks,
     artists: options.artists,
     narratedIds: options.narratedIds,
+    onOpenChange(open) {
+      if (open) return;
+      for (const listener of infoClosedListeners) listener();
+    },
   });
   const tip = createHotspotTip({ parent: root, project: options.project });
   const hud = createHud({
@@ -80,8 +87,13 @@ export function createTourUi(options: TourUiOptions): TourUi {
       if ('artworkIds' in hotspot) infoCard.open(hotspot.artworkIds, anchor);
       else infoCard.openNote(hotspot.title, hotspot.body, anchor);
     },
+    onInfoClosed(listener) {
+      infoClosedListeners.add(listener);
+      return () => infoClosedListeners.delete(listener);
+    },
     hover: tip.show,
     dispose() {
+      infoClosedListeners.clear();
       unsubscribe();
       tip.dispose();
       hud.dispose();

@@ -9,6 +9,7 @@ export const NAV_GLYPH_TILT_DEGREES = 58;
 export const RENDER_ORDER = {
   panoBottom: -20,
   panoTop: -19,
+  panoPose: -18,
   nadirCap: -10,
   hotspot: 10,
 } as const;

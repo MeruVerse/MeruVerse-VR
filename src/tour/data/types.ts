@@ -69,12 +69,24 @@ export interface Panorama {
   readonly preview: string;
 }
 
+/**
+ * Pose istirahat karya bergerak, diambil dari titik kamera yang sama dengan panorama utama.
+ * Scene dibuka dalam pose ini; saat titik info diklik, karya "bangun" ke `wakePanorama`
+ * (atau ke panorama utama kalau tidak diisi) diiringi efek suara.
+ */
+export interface RestPose {
+  readonly panorama: Panorama;
+  readonly wakePanorama?: Panorama;
+  readonly wakeSound: string;
+}
+
 export interface Scene {
   readonly id: SceneId;
   readonly title: string;
   readonly zone: ZoneId;
   readonly initialYaw: number;
   readonly panorama: Panorama;
+  readonly rest?: RestPose;
   readonly hotspots: readonly Hotspot[];
 }
 

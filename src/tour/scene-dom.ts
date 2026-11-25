@@ -7,6 +7,7 @@ export interface TourScene {
   readonly sceneEl: Scene;
   readonly cameraEl: Entity;
   readonly panoEls: readonly [Entity, Entity];
+  readonly poseEl: Entity;
   readonly hotspotContainer: Entity;
   readonly nadirEl: Entity;
 }
@@ -33,10 +34,11 @@ export function createTourScene(): TourScene {
     'look-controls': 'touchEnabled: true; magicWindowTrackingEnabled: true',
   });
   const panoEls: [Entity, Entity] = [entity({ 'pano-sphere': '' }), entity({ 'pano-sphere': '' })];
+  const poseEl = entity({ 'pano-sphere': '' });
   const nadirEl = entity({ 'nadir-cap': '' });
   const hotspotContainer = entity();
-  sceneEl.append(cameraEl, ...panoEls, nadirEl, hotspotContainer);
-  return { sceneEl, cameraEl, panoEls, hotspotContainer, nadirEl };
+  sceneEl.append(cameraEl, ...panoEls, poseEl, nadirEl, hotspotContainer);
+  return { sceneEl, cameraEl, panoEls, poseEl, hotspotContainer, nadirEl };
 }
 
 export function whenLoaded(el: Entity): Promise<void> {
