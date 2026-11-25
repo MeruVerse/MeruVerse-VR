@@ -382,6 +382,13 @@ export const SCENES: readonly Scene[] = [
       pitch: 27.1,
       artworkIds: ['rodlyta-ittabi-ulya--a-fragment-of-landscape'],
     },
+    {
+      id: 'info-lantai-atas-hendung-tunggal-jati--koar-koar',
+      type: 'info',
+      yaw: -73.9,
+      pitch: 14.4,
+      artworkIds: ['hendung-tunggal-jati--koar-koar'],
+    },
   ]),
   scene('lorong', 'Lorong Karya', 'lorong-karya', [
     nav('lorong', 'ruang-komunal', -177.7, -5.3),
